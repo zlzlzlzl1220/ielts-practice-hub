@@ -59,7 +59,7 @@
       <div class="field"><label for="year">Year</label><select id="year"></select></div>
       <div class="field"><label for="section">Section</label><select id="section"></select></div>
       <div class="field"><label for="vocabTopic">Vocabulary topic</label><select id="vocabTopic"></select></div>
-      <div class="row vocab-tools"><button class="ghost" id="nextWord">下一个单词</button><button class="ghost" id="rollingReview">滚动复习</button></div>
+      <div class="row vocab-tools"><button class="ghost" id="prevWord">上一个单词</button><button class="ghost" id="nextWord">下一个单词</button><button class="ghost" id="rollingReview">滚动复习</button></div>
       <p class="muted" id="memorySummary">已记住 0/3000 个词</p>
       <div class="row"><button id="random">Random</button><button class="ghost" id="showAnswers">Toggle answers</button></div>
       <h3>Important</h3>
@@ -78,7 +78,7 @@
       <div class="item-list" id="list"></div>
     </section>
   </main>
-  <script src="data.js?v=vocab-memory-2020-2026"></script>
+  <script src="data.js?v=vocab-review-memory-2020-2026"></script>
   <script>
     const DATA = window.IELTS_DATA || {};
     const PRACTICE = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
@@ -88,7 +88,6 @@
     let activeItems = ALL;
     let answersVisible = false;
     let rollingReview = false;
-    let rollingTimer = null;
     const memoryKey = 'ielts-vocab-memory-v1';
     const memorized = loadMemory();
     const keyword = document.querySelector('#keyword');
@@ -113,28 +112,41 @@
     function allText(item){return JSON.stringify(item).toLowerCase()}
     function filtered(){
       const q = keyword.value.trim().toLowerCase();
+      if (rollingReview) return currentVocabItems();
       return ALL.filter(item => (year.value === 'All' || String(item.year) === year.value)
         && (item.section !== 'Vocabulary' || vocabTopic.value === 'All' || item.topic === vocabTopic.value)
         && (section.value === 'All' || item.section === section.value)
         && (!q || allText(item).includes(q)));
     }
-    function currentVocabItems(){return filtered().filter(item => item.section === 'Vocabulary')}
+    function baseVocabItems(){
+      const q = keyword.value.trim().toLowerCase();
+      return VOCAB.filter(item => (vocabTopic.value === 'All' || item.topic === vocabTopic.value)
+        && (!q || allText(item).includes(q)));
+    }
+    function currentVocabItems(){
+      const items = baseVocabItems();
+      return rollingReview ? items.filter(item => memorized.has(item.id)) : items;
+    }
     function vocabProgressText(item){
       const items = currentVocabItems();
       const pool = items.length ? items : VOCAB;
       const index = pool.findIndex(v => v.id === item.id);
       const remembered = pool.filter(v => memorized.has(v.id)).length;
       const position = index >= 0 ? `${index + 1}/${pool.length}` : `1/${pool.length}`;
+      if (rollingReview) return `已记词复习 ${position}，点“上一个”或“下一个”继续`;
       return `当前词表 ${position}，已记住 ${remembered}/${pool.length}`;
     }
     function updateVocabStatus(){
+      const baseItems = baseVocabItems();
       const items = currentVocabItems();
       const rememberedAll = VOCAB.filter(v => memorized.has(v.id)).length;
-      const rememberedCurrent = items.filter(v => memorized.has(v.id)).length;
-      memorySummary.textContent = items.length
-        ? `当前词表已记住 ${rememberedCurrent}/${items.length}，总计 ${rememberedAll}/${VOCAB.length}`
+      const rememberedCurrent = baseItems.filter(v => memorized.has(v.id)).length;
+      memorySummary.textContent = rollingReview
+        ? `正在复习已记住 ${items.length}/${baseItems.length} 个词，点“上一个”或“下一个”继续`
+        : baseItems.length
+        ? `当前词表已记住 ${rememberedCurrent}/${baseItems.length}，总计 ${rememberedAll}/${VOCAB.length}`
         : `总计已记住 ${rememberedAll}/${VOCAB.length} 个词`;
-      rollingReviewButton.textContent = rollingReview ? '停止复习' : '滚动复习';
+      rollingReviewButton.textContent = rollingReview ? '退出复习' : '滚动复习';
       rollingReviewButton.className = rollingReview ? 'warning' : 'ghost';
     }
     function updateSelectedCards(){
@@ -168,8 +180,9 @@
             <button onclick="window.speakCurrentWord()">播放单词</button>
             <button class="ghost" onclick="window.speakCurrentExample()">播放例句</button>
             <button class="${remembered ? 'success' : 'ghost'}" onclick="window.toggleVocabMemory()">${remembered ? '已记住' : '标记已记住'}</button>
+            <button class="ghost" onclick="window.prevVocab()">上一个</button>
             <button class="ghost" onclick="window.nextVocab()">下一个</button>
-            <button class="${rollingReview ? 'warning' : 'ghost'}" onclick="window.toggleRollingReview()">${rollingReview ? '停止复习' : '滚动复习'}</button>
+            <button class="${rollingReview ? 'warning' : 'ghost'}" onclick="window.toggleRollingReview()">${rollingReview ? '退出复习' : '滚动复习'}</button>
           </div>
           <h3>中文释义</h3><p>${esc(item.meaningZh)}</p>
           <h3>Example</h3><p>${esc(item.example)}</p><p class="muted">${esc(item.exampleZh)}</p>
@@ -202,13 +215,18 @@
     window.speakText = text => speak(text);
     window.speakCurrentWord = () => current?.word && speak(current.word);
     window.speakCurrentExample = () => current?.example && speak(current.example);
-    function goNextVocab(auto = false){
+    function moveVocab(step){
       if (section.value !== 'Vocabulary') section.value = 'Vocabulary';
       if (year.value !== 'All') year.value = 'All';
       const items = currentVocabItems();
-      if (!items.length) { stopRollingReview(); refresh(); return; }
+      if (!items.length) {
+        if (rollingReview) alert('还没有已记住的单词，请先标记一些单词。');
+        refresh();
+        return;
+      }
       const index = items.findIndex(item => item.id === current?.id);
-      const next = items[(index + 1 + items.length) % items.length];
+      const currentIndex = index >= 0 ? index : (step > 0 ? -1 : 0);
+      const next = items[(currentIndex + step + items.length) % items.length];
       activeItems = items;
       document.querySelector('#count').textContent = items.length;
       document.querySelector('#total').textContent = ALL.length;
@@ -216,34 +234,44 @@
       renderTabs();
       renderList(items);
       renderDetail(next);
-      detail.scrollIntoView({behavior: auto ? 'smooth' : 'smooth', block: 'start'});
+      detail.scrollIntoView({behavior: 'smooth', block: 'start'});
     }
     function toggleVocabMemory(){
       if (current?.section !== 'Vocabulary') return;
       const item = current;
-      memorized.has(item.id) ? memorized.delete(item.id) : memorized.add(item.id);
+      const wasRemembered = memorized.has(item.id);
+      wasRemembered ? memorized.delete(item.id) : memorized.add(item.id);
       saveMemory();
+      if (rollingReview && wasRemembered) {
+        const items = currentVocabItems();
+        if (!items.length) { rollingReview = false; refresh(); return; }
+        activeItems = items;
+        renderList(items);
+        renderDetail(items[0]);
+        return;
+      }
       renderList(activeItems);
       renderDetail(item);
     }
-    function stopRollingReview(){
+    function exitRollingReview(){
       rollingReview = false;
-      if (rollingTimer) clearInterval(rollingTimer);
-      rollingTimer = null;
-      updateVocabStatus();
-      if (current?.section === 'Vocabulary') renderDetail(current);
+      refresh();
     }
     function toggleRollingReview(){
-      if (rollingReview) { stopRollingReview(); return; }
+      if (rollingReview) { exitRollingReview(); return; }
       if (section.value !== 'Vocabulary') section.value = 'Vocabulary';
       if (year.value !== 'All') year.value = 'All';
-      if (!currentVocabItems().length) { refresh(); return; }
+      const rememberedItems = baseVocabItems().filter(item => memorized.has(item.id));
+      if (!rememberedItems.length) {
+        alert('还没有已记住的单词，请先标记一些单词。');
+        refresh();
+        return;
+      }
       rollingReview = true;
-      goNextVocab(true);
-      rollingTimer = setInterval(() => goNextVocab(true), 4200);
-      updateVocabStatus();
+      refresh();
     }
-    window.nextVocab = () => goNextVocab(false);
+    window.prevVocab = () => moveVocab(-1);
+    window.nextVocab = () => moveVocab(1);
     window.toggleVocabMemory = toggleVocabMemory;
     window.toggleRollingReview = toggleRollingReview;
     function renderList(items){
@@ -271,7 +299,8 @@
     options(vocabTopic, ['All', ...Array.from(new Set(VOCAB.map(i => i.topic))).sort()]);
     document.querySelector('#officialLinks').innerHTML = '<h3>Official resources</h3>' + (DATA.officialLinks || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noreferrer">${esc(l.label)}</a>`).join('');
     [keyword, year, section, vocabTopic].forEach(el => el.addEventListener('input', refresh));
-    document.querySelector('#nextWord').addEventListener('click', () => goNextVocab(false));
+    document.querySelector('#prevWord').addEventListener('click', () => moveVocab(-1));
+    document.querySelector('#nextWord').addEventListener('click', () => moveVocab(1));
     rollingReviewButton.addEventListener('click', toggleRollingReview);
     document.querySelector('#random').addEventListener('click', () => { const items = filtered(); renderDetail(items[Math.floor(Math.random()*items.length)]); });
     document.querySelector('#showAnswers').addEventListener('click', () => { answersVisible = !answersVisible; renderDetail(current); });
