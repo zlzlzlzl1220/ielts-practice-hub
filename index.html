@@ -41,6 +41,11 @@
     .mini-badge{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:999px;background:#dcfce7;color:#166534;font-size:11px}
     .vocab-progress{margin:8px 0 12px;padding:10px;border-radius:8px;background:#f8fafc;color:#475467;font-size:13px}
     .vocab-tools{margin:-4px 0 8px}
+    .audio-panel{border:1px solid var(--line);border-radius:8px;background:#f8fafc;padding:12px;margin:12px 0}
+    .audio-panel audio{width:100%;margin-top:10px}
+    .audio-url-row{display:grid;grid-template-columns:1fr auto auto;gap:8px;margin-top:8px}
+    .official-audio-links{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+    .official-audio-links a{display:inline-block;border:1px solid #c7d2fe;background:#eef2ff;color:#243b7a;border-radius:6px;padding:8px 10px;text-decoration:none;font-weight:700;font-size:13px}
     .answer{background:#f8fafc;border-left:4px solid var(--green);padding:12px;border-radius:8px;white-space:pre-wrap}
     .hidden{display:none}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
     .question-row{border-top:1px solid var(--line);padding:12px 0}.question-row:first-child{border-top:0}
@@ -60,6 +65,8 @@
       <div class="field"><label for="year">Year</label><select id="year"></select></div>
       <div class="field"><label for="section">Section</label><select id="section"></select></div>
       <div class="field"><label for="vocabTopic">Vocabulary topic</label><select id="vocabTopic"></select></div>
+      <div class="field"><label for="voiceSelect">朗读声音</label><select id="voiceSelect"></select></div>
+      <div class="field"><label for="speechRate">朗读速度 <span id="speechRateValue">0.90x</span></label><input id="speechRate" type="range" min="0.75" max="1.05" step="0.05" value="0.90"></div>
       <div class="row vocab-tools"><button class="ghost" id="prevWord">上一个单词</button><button class="ghost" id="nextWord">下一个单词</button><button class="ghost" id="rollingReview">滚动复习</button></div>
       <p class="muted" id="memorySummary">已记住 0/3000 个词</p>
       <div class="row"><button id="random">Random</button><button class="ghost" id="showAnswers">Toggle answers</button></div>
@@ -80,22 +87,36 @@
     </section>
   </main>
   <footer>著作权所有人：赵亮</footer>
-  <script src="data.js?v=vocab-review-memory-2020-2026"></script>
+  <script src="data.js?v=listening-audio-controls-2020-2026"></script>
   <script>
     const DATA = window.IELTS_DATA || {};
     const PRACTICE = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
     const VOCAB = DATA.vocabulary || [];
     const ALL = [...PRACTICE, ...VOCAB];
+    const OFFICIAL_LISTENING_AUDIO = [
+      {label:'IELTS official sample listening', url:'https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test'},
+      {label:'British Council listening practice', url:'https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening'},
+      {label:'IELTS on computer listening', url:'https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/ielts-on-computer/practice-tests/listening'}
+    ];
     let current = ALL[0];
     let activeItems = ALL;
     let answersVisible = false;
     let rollingReview = false;
     const memoryKey = 'ielts-vocab-memory-v1';
+    const audioKey = 'ielts-listening-audio-urls-v1';
+    const voiceKey = 'ielts-speech-voice-v1';
+    const rateKey = 'ielts-speech-rate-v1';
     const memorized = loadMemory();
+    const listeningAudioUrls = loadAudioUrls();
+    let speechVoices = [];
+    let currentAudioObjectUrl = '';
     const keyword = document.querySelector('#keyword');
     const year = document.querySelector('#year');
     const section = document.querySelector('#section');
     const vocabTopic = document.querySelector('#vocabTopic');
+    const voiceSelect = document.querySelector('#voiceSelect');
+    const speechRate = document.querySelector('#speechRate');
+    const speechRateValue = document.querySelector('#speechRateValue');
     const detail = document.querySelector('#detail');
     const list = document.querySelector('#list');
     const memorySummary = document.querySelector('#memorySummary');
@@ -110,8 +131,19 @@
       try { localStorage.setItem(memoryKey, JSON.stringify([...memorized])); }
       catch {}
     }
+    function loadAudioUrls(){
+      try { return JSON.parse(localStorage.getItem(audioKey) || '{}'); }
+      catch { return {}; }
+    }
+    function saveAudioUrls(){
+      try { localStorage.setItem(audioKey, JSON.stringify(listeningAudioUrls)); }
+      catch {}
+    }
     function options(el, values){el.innerHTML = values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('')}
     function allText(item){return JSON.stringify(item).toLowerCase()}
+    function officialListeningLinks(){
+      return OFFICIAL_LISTENING_AUDIO.map(link => `<a href="${esc(link.url)}" target="_blank" rel="noreferrer">${esc(link.label)}</a>`).join('');
+    }
     function filtered(){
       const q = keyword.value.trim().toLowerCase();
       if (rollingReview) return currentVocabItems();
@@ -156,12 +188,39 @@
         node.classList.toggle('selected', node.dataset.id === current?.id);
       });
     }
+    function voiceId(voice){return `${voice.name}||${voice.lang}`}
+    function updateRateLabel(){
+      const value = Number(speechRate.value || 0.9).toFixed(2);
+      speechRateValue.textContent = `${value}x`;
+      try { localStorage.setItem(rateKey, speechRate.value); } catch {}
+    }
+    function populateVoices(){
+      if (!('speechSynthesis' in window)) {
+        voiceSelect.innerHTML = '<option>Browser speech not supported</option>';
+        return;
+      }
+      speechVoices = window.speechSynthesis.getVoices().filter(v => /^en(-|_)?/i.test(v.lang));
+      if (!speechVoices.length) speechVoices = window.speechSynthesis.getVoices();
+      const saved = localStorage.getItem(voiceKey);
+      const preferred = speechVoices.find(v => voiceId(v) === saved)
+        || speechVoices.find(v => /en-GB/i.test(v.lang) && /premium|enhanced|natural|siri|daniel|serena/i.test(v.name))
+        || speechVoices.find(v => /en-GB/i.test(v.lang))
+        || speechVoices[0];
+      voiceSelect.innerHTML = speechVoices.map(v => `<option value="${esc(voiceId(v))}">${esc(v.name)} · ${esc(v.lang)}</option>`).join('');
+      if (preferred) voiceSelect.value = voiceId(preferred);
+    }
+    function selectedVoice(){
+      return speechVoices.find(v => voiceId(v) === voiceSelect.value) || null;
+    }
     function speak(text){
       if (!('speechSynthesis' in window)) return alert('Speech synthesis is not supported in this browser.');
       window.speechSynthesis.cancel();
       const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = 'en-GB';
-      utter.rate = 0.92;
+      const voice = selectedVoice();
+      if (voice) utter.voice = voice;
+      utter.lang = voice?.lang || 'en-GB';
+      utter.rate = Number(speechRate.value || 0.9);
+      utter.pitch = 1;
       window.speechSynthesis.speak(utter);
     }
     function renderTabs(){
@@ -190,8 +249,17 @@
           <h3>Example</h3><p>${esc(item.example)}</p><p class="muted">${esc(item.exampleZh)}</p>
           <h3>Collocations</h3><ul>${item.collocations.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
       } else if (item.section === 'Listening') {
+        const audioUrl = listeningAudioUrls[item.id] || '';
         detail.innerHTML = `${meta}<h2>${esc(item.title)}</h2><p>${esc(item.context)}</p>
-          <div class="row"><button onclick="window.playCurrentListening()">Play script</button><button class="ghost" onclick="speechSynthesis.cancel()">Stop</button></div>
+          <div class="audio-panel">
+            <h3>Audio</h3>
+            <p class="muted">Official exam audio is not bundled. Use official sample recordings or audio you own/have permission to use.</p>
+            <div class="official-audio-links">${officialListeningLinks()}</div>
+            <div class="row"><button onclick="window.playCurrentListening()">浏览器朗读</button><button class="ghost" onclick="speechSynthesis.cancel()">停止朗读</button></div>
+            <div class="audio-url-row"><input id="audioUrl" value="${esc(audioUrl)}" placeholder="Authorized audio URL"><button onclick="window.saveAudioUrl()">加载链接</button><button class="ghost" onclick="window.clearAudioUrl()">清除</button></div>
+            <div class="field"><label for="audioFile">本地授权音频</label><input id="audioFile" type="file" accept="audio/*" onchange="window.loadAudioFile(this)"></div>
+            <audio id="audioPlayer" controls ${audioUrl ? `src="${esc(audioUrl)}"` : ''}></audio>
+          </div>
           <h3>Questions</h3>${item.questions.map(q => `<div class="question-row"><b>${q.number}. ${esc(q.question)}</b><p class="muted">${esc(q.type)}</p>${answerBlock(`<b>Answer:</b> ${esc(q.answer)}\n<b>Explanation:</b> ${esc(q.explanation)}`)}</div>`).join('')}
           <h3>Audio script</h3>${answerBlock(esc(item.audioScript))}
           <h3>Tips</h3><ul>${item.tips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
@@ -217,6 +285,35 @@
     window.speakText = text => speak(text);
     window.speakCurrentWord = () => current?.word && speak(current.word);
     window.speakCurrentExample = () => current?.example && speak(current.example);
+    function setAudioPlayerSource(src){
+      const player = document.querySelector('#audioPlayer');
+      if (!player) return;
+      player.src = src || '';
+      player.load();
+    }
+    window.saveAudioUrl = () => {
+      if (current?.section !== 'Listening') return;
+      const value = document.querySelector('#audioUrl')?.value.trim();
+      if (!value) return alert('请先粘贴你有权使用的音频 URL。');
+      listeningAudioUrls[current.id] = value;
+      saveAudioUrls();
+      setAudioPlayerSource(value);
+    };
+    window.clearAudioUrl = () => {
+      if (current?.section !== 'Listening') return;
+      delete listeningAudioUrls[current.id];
+      saveAudioUrls();
+      const input = document.querySelector('#audioUrl');
+      if (input) input.value = '';
+      setAudioPlayerSource('');
+    };
+    window.loadAudioFile = input => {
+      const file = input.files?.[0];
+      if (!file) return;
+      if (currentAudioObjectUrl) URL.revokeObjectURL(currentAudioObjectUrl);
+      currentAudioObjectUrl = URL.createObjectURL(file);
+      setAudioPlayerSource(currentAudioObjectUrl);
+    };
     function moveVocab(step){
       if (section.value !== 'Vocabulary') section.value = 'Vocabulary';
       if (year.value !== 'All') year.value = 'All';
@@ -299,6 +396,13 @@
     options(year, ['All', ...Array.from(new Set(PRACTICE.map(i => i.year))).sort()]);
     options(section, ['All', ...Array.from(new Set(ALL.map(i => i.section))).sort()]);
     options(vocabTopic, ['All', ...Array.from(new Set(VOCAB.map(i => i.topic))).sort()]);
+    const savedRate = localStorage.getItem(rateKey);
+    if (savedRate) speechRate.value = savedRate;
+    updateRateLabel();
+    populateVoices();
+    if ('speechSynthesis' in window) window.speechSynthesis.onvoiceschanged = populateVoices;
+    voiceSelect.addEventListener('input', () => { try { localStorage.setItem(voiceKey, voiceSelect.value); } catch {} });
+    speechRate.addEventListener('input', updateRateLabel);
     document.querySelector('#officialLinks').innerHTML = '<h3>Official resources</h3>' + (DATA.officialLinks || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noreferrer">${esc(l.label)}</a>`).join('');
     [keyword, year, section, vocabTopic].forEach(el => el.addEventListener('input', refresh));
     document.querySelector('#prevWord').addEventListener('click', () => moveVocab(-1));
