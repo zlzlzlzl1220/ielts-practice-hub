@@ -88,7 +88,7 @@
     </section>
   </main>
   <footer>著作权所有人：赵亮</footer>
-  <script src="data.js?v=per-question-real-listening-links"></script>
+  <script src="data.js?v=vocab-real-audio-links"></script>
   <script>
     const DATA = window.IELTS_DATA || {};
     const PRACTICE = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
@@ -102,8 +102,10 @@
     const audioKey = 'ielts-listening-audio-urls-v1';
     const voiceKey = 'ielts-speech-voice-v1';
     const rateKey = 'ielts-speech-rate-v1';
+    const vocabAudioKey = 'ielts-vocab-real-audio-v1';
     const memorized = loadMemory();
     const listeningAudioUrls = loadAudioUrls();
+    const vocabAudioCache = loadVocabAudioCache();
     let speechVoices = [];
     let currentAudioObjectUrl = '';
     const keyword = document.querySelector('#keyword');
@@ -133,6 +135,14 @@
     }
     function saveAudioUrls(){
       try { localStorage.setItem(audioKey, JSON.stringify(listeningAudioUrls)); }
+      catch {}
+    }
+    function loadVocabAudioCache(){
+      try { return JSON.parse(localStorage.getItem(vocabAudioKey) || '{}'); }
+      catch { return {}; }
+    }
+    function saveVocabAudioCache(){
+      try { localStorage.setItem(vocabAudioKey, JSON.stringify(vocabAudioCache)); }
       catch {}
     }
     function options(el, values){el.innerHTML = values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('')}
@@ -234,8 +244,9 @@
         const remembered = memorized.has(item.id);
         detail.innerHTML = `${meta}<h2>${esc(item.word)} <span class="muted">${esc(item.phonetic)}</span></h2>
           <div class="vocab-progress">${esc(vocabProgressText(item))}</div>
+          <p class="muted" id="vocabAudioStatus">单词发音优先使用真实词典录音，没有录音时自动使用浏览器朗读。</p>
           <div class="row">
-            <button onclick="window.speakCurrentWord()">播放单词</button>
+            <button onclick="window.speakCurrentWord()">播放单词真实发音</button>
             <button class="ghost" onclick="window.speakCurrentExample()">播放例句</button>
             <button class="${remembered ? 'success' : 'ghost'}" onclick="window.toggleVocabMemory()">${remembered ? '已记住' : '标记已记住'}</button>
             <button class="ghost" onclick="window.prevVocab()">上一个</button>
@@ -280,7 +291,47 @@
     }
     window.playCurrentListening = () => current?.audioScript && speak(current.audioScript);
     window.speakText = text => speak(text);
-    window.speakCurrentWord = () => current?.word && speak(current.word);
+    function plainWordForAudio(word){
+      return String(word || '').toLowerCase().replace(/[^a-z\s-]/g, '').trim().split(/\s+/)[0] || '';
+    }
+    function setVocabAudioStatus(text){
+      const node = document.querySelector('#vocabAudioStatus');
+      if (node) node.textContent = text;
+    }
+    async function fetchRealWordAudio(word){
+      const key = plainWordForAudio(word);
+      if (!key) return '';
+      if (vocabAudioCache[key]) return vocabAudioCache[key];
+      const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`);
+      if (!response.ok) return '';
+      const data = await response.json();
+      const phonetics = Array.isArray(data?.[0]?.phonetics) ? data[0].phonetics : [];
+      const audio = phonetics.map(p => p.audio).find(Boolean) || '';
+      if (audio) {
+        vocabAudioCache[key] = audio;
+        saveVocabAudioCache();
+      }
+      return audio;
+    }
+    window.speakCurrentWord = async () => {
+      if (!current?.word) return;
+      const key = plainWordForAudio(current.word);
+      if (!key) return speak(current.word);
+      setVocabAudioStatus('正在查找真实词典发音...');
+      try {
+        const audioUrl = await fetchRealWordAudio(current.word);
+        if (audioUrl) {
+          window.speechSynthesis?.cancel();
+          const audio = new Audio(audioUrl);
+          audio.onended = () => setVocabAudioStatus('已播放真实词典发音。');
+          audio.onerror = () => { setVocabAudioStatus('真实发音暂不可用，已切换为浏览器朗读。'); speak(current.word); };
+          await audio.play();
+          return;
+        }
+      } catch {}
+      setVocabAudioStatus('真实发音暂不可用，已切换为浏览器朗读。');
+      speak(current.word);
+    };
     window.speakCurrentExample = () => current?.example && speak(current.example);
     function setAudioPlayerSource(src){
       const player = document.querySelector('#audioPlayer');
