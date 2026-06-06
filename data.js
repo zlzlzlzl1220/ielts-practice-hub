@@ -6524,6 +6524,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6531,6 +6536,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6538,13 +6548,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "online timetable",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "online timetable",
           "explanation": "The first sentence links the topic directly with 'online timetable'."
         },
@@ -6552,6 +6574,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6559,6 +6587,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6582,6 +6616,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6589,6 +6628,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6596,13 +6640,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "contactless payment",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "contactless payment",
           "explanation": "The first sentence links the topic directly with 'contactless payment'."
         },
@@ -6610,6 +6666,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6617,6 +6679,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6640,6 +6708,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6647,6 +6720,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6654,13 +6732,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "appointment slot",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "appointment slot",
           "explanation": "The first sentence links the topic directly with 'appointment slot'."
         },
@@ -6668,6 +6758,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6675,6 +6771,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6698,6 +6800,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6705,6 +6812,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6712,13 +6824,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "digital ticket",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "digital ticket",
           "explanation": "The first sentence links the topic directly with 'digital ticket'."
         },
@@ -6726,6 +6850,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6733,6 +6863,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6756,6 +6892,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6763,6 +6904,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6770,13 +6916,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "traffic reduction",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "traffic reduction",
           "explanation": "The first sentence links the topic directly with 'traffic reduction'."
         },
@@ -6784,6 +6942,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6791,6 +6955,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6814,6 +6984,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6821,6 +6996,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6828,13 +7008,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "shared document",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "shared document",
           "explanation": "The first sentence links the topic directly with 'shared document'."
         },
@@ -6842,6 +7034,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6849,6 +7047,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6872,6 +7076,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6879,6 +7088,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6886,13 +7100,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "supply box",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "supply box",
           "explanation": "The first sentence links the topic directly with 'supply box'."
         },
@@ -6900,6 +7126,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6907,6 +7139,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6930,6 +7168,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6937,6 +7180,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -6944,13 +7192,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "exercise mat",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "exercise mat",
           "explanation": "The first sentence links the topic directly with 'exercise mat'."
         },
@@ -6958,6 +7218,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -6965,6 +7231,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -6988,6 +7260,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -6995,6 +7272,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7002,13 +7284,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "return label",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "return label",
           "explanation": "The first sentence links the topic directly with 'return label'."
         },
@@ -7016,6 +7310,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7023,6 +7323,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7046,6 +7352,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7053,6 +7364,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7060,13 +7376,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "reservation code",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "reservation code",
           "explanation": "The first sentence links the topic directly with 'reservation code'."
         },
@@ -7074,6 +7402,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7081,6 +7415,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7104,6 +7444,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7111,6 +7456,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7118,13 +7468,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "support form",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "support form",
           "explanation": "The first sentence links the topic directly with 'support form'."
         },
@@ -7132,6 +7494,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7139,6 +7507,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7162,6 +7536,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7169,6 +7548,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7176,13 +7560,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "video platform",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "video platform",
           "explanation": "The first sentence links the topic directly with 'video platform'."
         },
@@ -7190,6 +7586,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7197,6 +7599,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7220,6 +7628,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7227,6 +7640,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7234,13 +7652,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "safety map",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "safety map",
           "explanation": "The first sentence links the topic directly with 'safety map'."
         },
@@ -7248,6 +7678,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7255,6 +7691,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7278,6 +7720,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7285,6 +7732,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7292,13 +7744,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "seed packet",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "seed packet",
           "explanation": "The first sentence links the topic directly with 'seed packet'."
         },
@@ -7306,6 +7770,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7313,6 +7783,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7336,6 +7812,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7343,6 +7824,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7350,13 +7836,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "smart meter",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "smart meter",
           "explanation": "The first sentence links the topic directly with 'smart meter'."
         },
@@ -7364,6 +7862,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7371,6 +7875,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7394,6 +7904,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7401,6 +7916,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7408,13 +7928,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "booking reference",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "booking reference",
           "explanation": "The first sentence links the topic directly with 'booking reference'."
         },
@@ -7422,6 +7954,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7429,6 +7967,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7452,6 +7996,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7459,6 +8008,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7466,13 +8020,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "camera kit",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "camera kit",
           "explanation": "The first sentence links the topic directly with 'camera kit'."
         },
@@ -7480,6 +8046,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7487,6 +8059,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7510,6 +8088,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7517,6 +8100,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7524,13 +8112,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "customer voucher",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "customer voucher",
           "explanation": "The first sentence links the topic directly with 'customer voucher'."
         },
@@ -7538,6 +8138,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7545,6 +8151,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7568,6 +8180,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7575,6 +8192,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7582,13 +8204,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "trail map",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "trail map",
           "explanation": "The first sentence links the topic directly with 'trail map'."
         },
@@ -7596,6 +8230,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7603,6 +8243,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7626,6 +8272,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7633,6 +8284,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7640,13 +8296,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "counselling session",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "counselling session",
           "explanation": "The first sentence links the topic directly with 'counselling session'."
         },
@@ -7654,6 +8322,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7661,6 +8335,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7684,6 +8364,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7691,6 +8376,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7698,13 +8388,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "password manager",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "password manager",
           "explanation": "The first sentence links the topic directly with 'password manager'."
         },
@@ -7712,6 +8414,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7719,6 +8427,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7742,6 +8456,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7749,6 +8468,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7756,13 +8480,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "deposit box",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "deposit box",
           "explanation": "The first sentence links the topic directly with 'deposit box'."
         },
@@ -7770,6 +8506,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7777,6 +8519,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7800,6 +8548,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7807,6 +8560,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7814,13 +8572,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "conversation partner",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "conversation partner",
           "explanation": "The first sentence links the topic directly with 'conversation partner'."
         },
@@ -7828,6 +8598,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7835,6 +8611,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7858,6 +8640,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7865,6 +8652,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7872,13 +8664,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "weekend pass",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "weekend pass",
           "explanation": "The first sentence links the topic directly with 'weekend pass'."
         },
@@ -7886,6 +8690,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7893,6 +8703,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7916,6 +8732,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7923,6 +8744,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7930,13 +8756,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "insulation advice",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "insulation advice",
           "explanation": "The first sentence links the topic directly with 'insulation advice'."
         },
@@ -7944,6 +8782,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -7951,6 +8795,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -7974,6 +8824,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -7981,6 +8836,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -7988,13 +8848,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "protective goggles",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "protective goggles",
           "explanation": "The first sentence links the topic directly with 'protective goggles'."
         },
@@ -8002,6 +8874,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8009,6 +8887,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8032,6 +8916,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8039,6 +8928,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8046,13 +8940,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "travel points",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "travel points",
           "explanation": "The first sentence links the topic directly with 'travel points'."
         },
@@ -8060,6 +8966,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8067,6 +8979,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8090,6 +9008,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8097,6 +9020,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8104,13 +9032,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "security code",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "security code",
           "explanation": "The first sentence links the topic directly with 'security code'."
         },
@@ -8118,6 +9058,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8125,6 +9071,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8148,6 +9100,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8155,6 +9112,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8162,13 +9124,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "collection bin",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "collection bin",
           "explanation": "The first sentence links the topic directly with 'collection bin'."
         },
@@ -8176,6 +9150,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8183,6 +9163,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8206,6 +9192,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8213,6 +9204,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8220,13 +9216,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "rehearsal room",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "rehearsal room",
           "explanation": "The first sentence links the topic directly with 'rehearsal room'."
         },
@@ -8234,6 +9242,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8241,6 +9255,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8264,6 +9284,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8271,6 +9296,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8278,13 +9308,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "monthly desk",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "monthly desk",
           "explanation": "The first sentence links the topic directly with 'monthly desk'."
         },
@@ -8292,6 +9334,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8299,6 +9347,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8322,6 +9376,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8329,6 +9388,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8336,13 +9400,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "flood barrier",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "flood barrier",
           "explanation": "The first sentence links the topic directly with 'flood barrier'."
         },
@@ -8350,6 +9426,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8357,6 +9439,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8380,6 +9468,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8387,6 +9480,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8394,13 +9492,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "student discount",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "student discount",
           "explanation": "The first sentence links the topic directly with 'student discount'."
         },
@@ -8408,6 +9518,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8415,6 +9531,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8438,6 +9560,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8445,6 +9572,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8452,13 +9584,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "sorting robot",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "sorting robot",
           "explanation": "The first sentence links the topic directly with 'sorting robot'."
         },
@@ -8466,6 +9610,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8473,6 +9623,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8496,6 +9652,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8503,6 +9664,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8510,13 +9676,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "local supplier",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "local supplier",
           "explanation": "The first sentence links the topic directly with 'local supplier'."
         },
@@ -8524,6 +9702,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8531,6 +9715,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8554,6 +9744,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8561,6 +9756,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8568,13 +9768,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "employer list",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "employer list",
           "explanation": "The first sentence links the topic directly with 'employer list'."
         },
@@ -8582,6 +9794,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8589,6 +9807,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8612,6 +9836,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8619,6 +9848,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8626,13 +9860,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "repair workshop",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "repair workshop",
           "explanation": "The first sentence links the topic directly with 'repair workshop'."
         },
@@ -8640,6 +9886,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8647,6 +9899,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8670,6 +9928,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8677,6 +9940,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8684,13 +9952,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "leak sensor",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "leak sensor",
           "explanation": "The first sentence links the topic directly with 'leak sensor'."
         },
@@ -8698,6 +9978,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8705,6 +9991,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8728,6 +10020,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8735,6 +10032,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8742,13 +10044,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "patient portal",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "patient portal",
           "explanation": "The first sentence links the topic directly with 'patient portal'."
         },
@@ -8756,6 +10070,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8763,6 +10083,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8786,6 +10112,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8793,6 +10124,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8800,13 +10136,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "booking app",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "booking app",
           "explanation": "The first sentence links the topic directly with 'booking app'."
         },
@@ -8814,6 +10162,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8821,6 +10175,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8844,6 +10204,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8851,6 +10216,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8858,13 +10228,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "charging point",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "charging point",
           "explanation": "The first sentence links the topic directly with 'charging point'."
         },
@@ -8872,6 +10254,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8879,6 +10267,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8902,6 +10296,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8909,6 +10308,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8916,13 +10320,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "reporting form",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "reporting form",
           "explanation": "The first sentence links the topic directly with 'reporting form'."
         },
@@ -8930,6 +10346,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8937,6 +10359,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -8960,6 +10388,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -8967,6 +10400,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -8974,13 +10412,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "signal booster",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "signal booster",
           "explanation": "The first sentence links the topic directly with 'signal booster'."
         },
@@ -8988,6 +10438,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -8995,6 +10451,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9018,6 +10480,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9025,6 +10492,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9032,13 +10504,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "group session",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "group session",
           "explanation": "The first sentence links the topic directly with 'group session'."
         },
@@ -9046,6 +10530,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9053,6 +10543,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9076,6 +10572,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9083,6 +10584,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9090,13 +10596,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "hydroponic shelf",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "hydroponic shelf",
           "explanation": "The first sentence links the topic directly with 'hydroponic shelf'."
         },
@@ -9104,6 +10622,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9111,6 +10635,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9134,6 +10664,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9141,6 +10676,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9148,13 +10688,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "practice dashboard",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "practice dashboard",
           "explanation": "The first sentence links the topic directly with 'practice dashboard'."
         },
@@ -9162,6 +10714,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9169,6 +10727,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9192,6 +10756,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9199,6 +10768,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9206,13 +10780,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "timed entry",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "timed entry",
           "explanation": "The first sentence links the topic directly with 'timed entry'."
         },
@@ -9220,6 +10806,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9227,6 +10819,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9250,6 +10848,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9257,6 +10860,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9264,13 +10872,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "protected lane",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "protected lane",
           "explanation": "The first sentence links the topic directly with 'protected lane'."
         },
@@ -9278,6 +10898,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9285,6 +10911,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9308,6 +10940,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9315,6 +10952,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9322,13 +10964,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "quiet pod",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "quiet pod",
           "explanation": "The first sentence links the topic directly with 'quiet pod'."
         },
@@ -9336,6 +10990,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9343,6 +11003,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9366,6 +11032,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9373,6 +11044,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9380,13 +11056,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "greywater tank",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "greywater tank",
           "explanation": "The first sentence links the topic directly with 'greywater tank'."
         },
@@ -9394,6 +11082,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9401,6 +11095,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9424,6 +11124,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9431,6 +11136,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9438,13 +11148,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "spending diary",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "spending diary",
           "explanation": "The first sentence links the topic directly with 'spending diary'."
         },
@@ -9452,6 +11174,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9459,6 +11187,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9482,6 +11216,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9489,6 +11228,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9496,13 +11240,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "acoustic panel",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "acoustic panel",
           "explanation": "The first sentence links the topic directly with 'acoustic panel'."
         },
@@ -9510,6 +11266,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9517,6 +11279,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9540,6 +11308,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9547,6 +11320,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9554,13 +11332,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "reuse centre",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "reuse centre",
           "explanation": "The first sentence links the topic directly with 'reuse centre'."
         },
@@ -9568,6 +11358,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9575,6 +11371,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9598,6 +11400,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9605,6 +11412,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9612,13 +11424,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "blood pressure check",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "blood pressure check",
           "explanation": "The first sentence links the topic directly with 'blood pressure check'."
         },
@@ -9626,6 +11450,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9633,6 +11463,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9656,6 +11492,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9663,6 +11504,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9670,13 +11516,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "weekly rental",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "weekly rental",
           "explanation": "The first sentence links the topic directly with 'weekly rental'."
         },
@@ -9684,6 +11542,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9691,6 +11555,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9714,6 +11584,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9721,6 +11596,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9728,13 +11608,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "play area",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "play area",
           "explanation": "The first sentence links the topic directly with 'play area'."
         },
@@ -9742,6 +11634,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9749,6 +11647,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9772,6 +11676,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9779,6 +11688,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9786,13 +11700,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "nutrition label",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "nutrition label",
           "explanation": "The first sentence links the topic directly with 'nutrition label'."
         },
@@ -9800,6 +11726,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9807,6 +11739,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9830,6 +11768,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9837,6 +11780,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9844,13 +11792,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "audio guide",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "audio guide",
           "explanation": "The first sentence links the topic directly with 'audio guide'."
         },
@@ -9858,6 +11818,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9865,6 +11831,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9888,6 +11860,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9895,6 +11872,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9902,13 +11884,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "heat pump",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "heat pump",
           "explanation": "The first sentence links the topic directly with 'heat pump'."
         },
@@ -9916,6 +11910,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9923,6 +11923,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -9946,6 +11952,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -9953,6 +11964,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -9960,13 +11976,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "photo record",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "photo record",
           "explanation": "The first sentence links the topic directly with 'photo record'."
         },
@@ -9974,6 +12002,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -9981,6 +12015,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10004,6 +12044,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10011,6 +12056,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10018,13 +12068,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "helmet",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "helmet",
           "explanation": "The first sentence links the topic directly with 'helmet'."
         },
@@ -10032,6 +12094,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10039,6 +12107,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10062,6 +12136,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10069,6 +12148,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10076,13 +12160,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "compost bin",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "compost bin",
           "explanation": "The first sentence links the topic directly with 'compost bin'."
         },
@@ -10090,6 +12186,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10097,6 +12199,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10120,6 +12228,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10127,6 +12240,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10134,13 +12252,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "blue badge",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "blue badge",
           "explanation": "The first sentence links the topic directly with 'blue badge'."
         },
@@ -10148,6 +12278,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10155,6 +12291,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10178,6 +12320,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10185,6 +12332,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10192,13 +12344,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "case study",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "case study",
           "explanation": "The first sentence links the topic directly with 'case study'."
         },
@@ -10206,6 +12370,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10213,6 +12383,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10236,6 +12412,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10243,6 +12424,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10250,13 +12436,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "nesting site",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "nesting site",
           "explanation": "The first sentence links the topic directly with 'nesting site'."
         },
@@ -10264,6 +12462,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10271,6 +12475,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10294,6 +12504,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10301,6 +12516,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10308,13 +12528,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "tool station",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "tool station",
           "explanation": "The first sentence links the topic directly with 'tool station'."
         },
@@ -10322,6 +12554,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10329,6 +12567,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10352,6 +12596,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10359,6 +12608,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10366,13 +12620,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "shade map",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "shade map",
           "explanation": "The first sentence links the topic directly with 'shade map'."
         },
@@ -10380,6 +12646,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10387,6 +12659,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10410,6 +12688,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10417,6 +12700,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10424,13 +12712,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "tracking chart",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "tracking chart",
           "explanation": "The first sentence links the topic directly with 'tracking chart'."
         },
@@ -10438,6 +12738,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10445,6 +12751,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10468,6 +12780,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10475,6 +12792,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10482,13 +12804,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "commuter survey",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "commuter survey",
           "explanation": "The first sentence links the topic directly with 'commuter survey'."
         },
@@ -10496,6 +12830,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10503,6 +12843,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10526,6 +12872,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10533,6 +12884,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10540,13 +12896,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "ceramic sample",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "ceramic sample",
           "explanation": "The first sentence links the topic directly with 'ceramic sample'."
         },
@@ -10554,6 +12922,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10561,6 +12935,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10584,6 +12964,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10591,6 +12976,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10598,13 +12988,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "course fee",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "course fee",
           "explanation": "The first sentence links the topic directly with 'course fee'."
         },
@@ -10612,6 +13014,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10619,6 +13027,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10642,6 +13056,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10649,6 +13068,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10656,13 +13080,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "study zone",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "study zone",
           "explanation": "The first sentence links the topic directly with 'study zone'."
         },
@@ -10670,6 +13106,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10677,6 +13119,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10700,6 +13148,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10707,6 +13160,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10714,13 +13172,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "budget plan",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "budget plan",
           "explanation": "The first sentence links the topic directly with 'budget plan'."
         },
@@ -10728,6 +13198,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10735,6 +13211,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10758,6 +13240,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10765,6 +13252,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10772,13 +13264,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "route extension",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "route extension",
           "explanation": "The first sentence links the topic directly with 'route extension'."
         },
@@ -10786,6 +13290,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10793,6 +13303,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10816,6 +13332,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10823,6 +13344,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10830,13 +13356,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "flexible schedule",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "flexible schedule",
           "explanation": "The first sentence links the topic directly with 'flexible schedule'."
         },
@@ -10844,6 +13382,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10851,6 +13395,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10874,6 +13424,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10881,6 +13436,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10888,13 +13448,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "deposit receipt",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "deposit receipt",
           "explanation": "The first sentence links the topic directly with 'deposit receipt'."
         },
@@ -10902,6 +13474,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10909,6 +13487,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10932,6 +13516,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10939,6 +13528,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -10946,13 +13540,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "trial week",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "trial week",
           "explanation": "The first sentence links the topic directly with 'trial week'."
         },
@@ -10960,6 +13566,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -10967,6 +13579,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -10990,6 +13608,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -10997,6 +13620,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11004,13 +13632,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "citation guide",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "citation guide",
           "explanation": "The first sentence links the topic directly with 'citation guide'."
         },
@@ -11018,6 +13658,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11025,6 +13671,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11048,6 +13700,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11055,6 +13712,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11062,13 +13724,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "pricing survey",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "pricing survey",
           "explanation": "The first sentence links the topic directly with 'pricing survey'."
         },
@@ -11076,6 +13750,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11083,6 +13763,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11106,6 +13792,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11113,6 +13804,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11120,13 +13816,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "battery storage",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "battery storage",
           "explanation": "The first sentence links the topic directly with 'battery storage'."
         },
@@ -11134,6 +13842,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11141,6 +13855,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11164,6 +13884,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11171,6 +13896,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11178,13 +13908,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "LED lighting",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "LED lighting",
           "explanation": "The first sentence links the topic directly with 'LED lighting'."
         },
@@ -11192,6 +13934,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11199,6 +13947,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11222,6 +13976,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11229,6 +13988,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11236,13 +14000,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "reading score",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "reading score",
           "explanation": "The first sentence links the topic directly with 'reading score'."
         },
@@ -11250,6 +14026,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11257,6 +14039,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11280,6 +14068,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11287,6 +14080,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11294,13 +14092,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "surface coating",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "surface coating",
           "explanation": "The first sentence links the topic directly with 'surface coating'."
         },
@@ -11308,6 +14118,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11315,6 +14131,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11338,6 +14160,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11345,6 +14172,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11352,13 +14184,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "digital access",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "digital access",
           "explanation": "The first sentence links the topic directly with 'digital access'."
         },
@@ -11366,6 +14210,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11373,6 +14223,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11396,6 +14252,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11403,6 +14264,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11410,13 +14276,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "robotic vessel",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "robotic vessel",
           "explanation": "The first sentence links the topic directly with 'robotic vessel'."
         },
@@ -11424,6 +14302,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11431,6 +14315,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11454,6 +14344,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11461,6 +14356,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11468,13 +14368,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "rent cap",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "rent cap",
           "explanation": "The first sentence links the topic directly with 'rent cap'."
         },
@@ -11482,6 +14394,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11489,6 +14407,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11512,6 +14436,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11519,6 +14448,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11526,13 +14460,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "free admission",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "free admission",
           "explanation": "The first sentence links the topic directly with 'free admission'."
         },
@@ -11540,6 +14486,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11547,6 +14499,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11570,6 +14528,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11577,6 +14540,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11584,13 +14552,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "screen break",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "screen break",
           "explanation": "The first sentence links the topic directly with 'screen break'."
         },
@@ -11598,6 +14578,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11605,6 +14591,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11628,6 +14620,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11635,6 +14632,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11642,13 +14644,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "solar panel",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "solar panel",
           "explanation": "The first sentence links the topic directly with 'solar panel'."
         },
@@ -11656,6 +14670,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11663,6 +14683,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11686,6 +14712,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11693,6 +14724,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11700,13 +14736,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "shift timetable",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "shift timetable",
           "explanation": "The first sentence links the topic directly with 'shift timetable'."
         },
@@ -11714,6 +14762,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11721,6 +14775,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11744,6 +14804,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11751,6 +14816,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11758,13 +14828,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "policy number",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "policy number",
           "explanation": "The first sentence links the topic directly with 'policy number'."
         },
@@ -11772,6 +14854,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11779,6 +14867,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11802,6 +14896,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11809,6 +14908,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11816,13 +14920,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "river bridge",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "river bridge",
           "explanation": "The first sentence links the topic directly with 'river bridge'."
         },
@@ -11830,6 +14946,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11837,6 +14959,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11860,6 +14988,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11867,6 +15000,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11874,13 +15012,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "laundry card",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "laundry card",
           "explanation": "The first sentence links the topic directly with 'laundry card'."
         },
@@ -11888,6 +15038,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11895,6 +15051,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11918,6 +15080,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11925,6 +15092,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11932,13 +15104,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "pilot study",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "pilot study",
           "explanation": "The first sentence links the topic directly with 'pilot study'."
         },
@@ -11946,6 +15130,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -11953,6 +15143,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -11976,6 +15172,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -11983,6 +15184,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -11990,13 +15196,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "recall test",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "recall test",
           "explanation": "The first sentence links the topic directly with 'recall test'."
         },
@@ -12004,6 +15222,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12011,6 +15235,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12034,6 +15264,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12041,6 +15276,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12048,13 +15288,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "risk score",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "risk score",
           "explanation": "The first sentence links the topic directly with 'risk score'."
         },
@@ -12062,6 +15314,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12069,6 +15327,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12092,6 +15356,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12099,6 +15368,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12106,13 +15380,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "textile recycling",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "textile recycling",
           "explanation": "The first sentence links the topic directly with 'textile recycling'."
         },
@@ -12120,6 +15406,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12127,6 +15419,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12150,6 +15448,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12157,6 +15460,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12164,13 +15472,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "speed limit",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "speed limit",
           "explanation": "The first sentence links the topic directly with 'speed limit'."
         },
@@ -12178,6 +15498,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12185,6 +15511,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12208,6 +15540,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12215,6 +15552,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12222,13 +15564,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "deep sleep",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "deep sleep",
           "explanation": "The first sentence links the topic directly with 'deep sleep'."
         },
@@ -12236,6 +15590,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12243,6 +15603,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12266,6 +15632,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12273,6 +15644,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12280,13 +15656,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "weather sensor",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "weather sensor",
           "explanation": "The first sentence links the topic directly with 'weather sensor'."
         },
@@ -12294,6 +15682,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12301,6 +15695,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12324,6 +15724,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12331,6 +15736,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12338,13 +15748,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "feedback tool",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "feedback tool",
           "explanation": "The first sentence links the topic directly with 'feedback tool'."
         },
@@ -12352,6 +15774,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12359,6 +15787,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12382,6 +15816,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12389,6 +15828,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12396,13 +15840,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "greenhouse plot",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "greenhouse plot",
           "explanation": "The first sentence links the topic directly with 'greenhouse plot'."
         },
@@ -12410,6 +15866,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12417,6 +15879,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12440,6 +15908,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12447,6 +15920,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12454,13 +15932,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "career portfolio",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "career portfolio",
           "explanation": "The first sentence links the topic directly with 'career portfolio'."
         },
@@ -12468,6 +15958,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12475,6 +15971,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12498,6 +16000,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12505,6 +16012,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12512,13 +16024,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "new laboratory",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "new laboratory",
           "explanation": "The first sentence links the topic directly with 'new laboratory'."
         },
@@ -12526,6 +16050,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12533,6 +16063,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }
@@ -12556,6 +16092,11 @@ window.IELTS_DATA = {
           "number": 1,
           "type": "True/False/Not Given",
           "question": "The passage says older assumptions about the topic were questioned.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "True",
           "explanation": "The opening section states that older assumptions were questioned."
         },
@@ -12563,6 +16104,11 @@ window.IELTS_DATA = {
           "number": 2,
           "type": "True/False/Not Given",
           "question": "All studies in the passage reached the same conclusion.",
+          "options": [
+            "True",
+            "False",
+            "Not Given"
+          ],
           "answer": "False",
           "explanation": "The passage contrasts a study reporting benefits with another warning about risks."
         },
@@ -12570,13 +16116,25 @@ window.IELTS_DATA = {
           "number": 3,
           "type": "Sentence completion",
           "question": "Results often depend on local conditions, sample size and ______ methods.",
+          "options": [
+            "measurement",
+            "financial",
+            "interview",
+            "behavioural"
+          ],
           "answer": "measurement",
           "explanation": "The word 'measurement' appears in the middle section."
         },
         {
           "number": 4,
-          "type": "Short answer",
+          "type": "Multiple choice",
           "question": "What key detail is linked to the topic in the first sentence?",
+          "options": [
+            "spending review",
+            "public communication",
+            "sample size",
+            "realistic funding"
+          ],
           "answer": "spending review",
           "explanation": "The first sentence links the topic directly with 'spending review'."
         },
@@ -12584,6 +16142,12 @@ window.IELTS_DATA = {
           "number": 5,
           "type": "Multiple choice",
           "question": "What does the final section emphasise?",
+          "options": [
+            "Evidence, funding and public communication are all needed.",
+            "Technology alone can solve the problem.",
+            "All older assumptions should be accepted.",
+            "Costs are more important than public trust."
+          ],
           "answer": "Evidence, funding and public communication are all needed.",
           "explanation": "The final section lists reliable evidence, realistic funding and careful public communication."
         },
@@ -12591,6 +16155,12 @@ window.IELTS_DATA = {
           "number": 6,
           "type": "Summary completion",
           "question": "Poorly designed programmes may reduce public ______.",
+          "options": [
+            "trust",
+            "traffic",
+            "equipment",
+            "tourism"
+          ],
           "answer": "trust",
           "explanation": "The middle section says poor design may increase costs or reduce public trust."
         }

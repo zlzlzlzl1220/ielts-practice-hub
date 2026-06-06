@@ -73,6 +73,12 @@
     .official-audio-links a{display:inline-block;border:1px solid #c7d2fe;background:#eef2ff;color:#243b7a;border-radius:6px;padding:8px 10px;text-decoration:none;font-weight:700;font-size:13px}
     .official-audio-links a.primary-audio{background:var(--blue);color:#fff;border-color:var(--blue)}
     .answer{background:#f8fafc;border-left:4px solid var(--green);padding:12px;border-radius:8px;white-space:pre-wrap}
+    .response-box{margin-top:10px;border:1px solid var(--line);border-radius:8px;background:#fff;padding:10px}
+    .response-box textarea{min-height:110px;resize:vertical}
+    .response-box input[type=text]{margin-top:6px}
+    .option-list{display:grid;gap:8px;margin-top:8px}
+    .option-label{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--line);border-radius:6px;padding:8px;background:#fff;cursor:pointer;font-weight:600}
+    .option-label input{width:auto;margin-top:3px}
     .hidden{display:none}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
     .question-row{border-top:1px solid var(--line);padding:12px 0}.question-row:first-child{border-top:0}
     .official a{display:block;margin:6px 0;color:#1d4ed8}
@@ -82,9 +88,26 @@
     .draft-meta{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:13px;margin-top:7px}
     .mock-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}
     .mock-link{border:1px solid var(--line);border-radius:6px;background:#fff;padding:8px;text-align:left;color:var(--ink)}
+    .computer-mode{position:fixed;inset:0;background:#eef3f9;color:var(--ink);z-index:20;display:grid;grid-template-rows:auto 1fr}
+    .computer-mode.hidden{display:none}
+    .computer-top{background:#fff;border-bottom:1px solid var(--line);padding:10px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(7,27,58,.08)}
+    .computer-title{font-weight:900;color:var(--blue)}
+    .computer-clock{font-size:24px;font-weight:900;color:var(--red)}
+    .computer-layout{display:grid;grid-template-columns:220px 1fr;min-height:0}
+    .computer-nav{background:#fff;border-right:1px solid var(--line);padding:14px;overflow:auto}
+    .computer-nav button{width:100%;margin-bottom:8px;text-align:left;background:#fff;color:var(--ink);border:1px solid var(--line)}
+    .computer-nav button.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+    .computer-nav button.answered{border-color:#b7eadb;background:#f0fdf4;color:#08745f}
+    .computer-nav button.active.answered{background:var(--blue);color:#fff;border-color:var(--blue)}
+    .computer-main{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:14px;min-height:0}
+    .computer-pane{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px;overflow:auto;min-height:0}
+    .computer-pane h2{position:sticky;top:-16px;background:#fff;padding:0 0 10px;border-bottom:1px solid var(--line);z-index:1}
+    .question-nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+    .question-nav button{width:34px;height:34px;padding:0;border-radius:4px;background:#fff;color:var(--blue);border:1px solid #b7cbe8}
+    .question-nav button.answered{background:#e8faf4;color:#08745f;border-color:#b7eadb}
     .official a{display:block;margin:6px 0;color:#1d4ed8}
     footer{width:min(1240px,calc(100vw - 28px));margin:-22px auto 34px;color:var(--muted);font-size:13px;text-align:center}
-    @media(max-width:960px){.header-inner,main{grid-template-columns:1fr}.hero-actions{justify-content:flex-start}aside{position:static}.grid,.dashboard,.item-list,.mock-list{grid-template-columns:1fr}.study-actions{grid-template-columns:1fr 1fr}}
+    @media(max-width:960px){.header-inner,main{grid-template-columns:1fr}.hero-actions{justify-content:flex-start}aside{position:static}.grid,.dashboard,.item-list,.mock-list{grid-template-columns:1fr}.study-actions{grid-template-columns:1fr 1fr}.computer-layout,.computer-main{grid-template-columns:1fr}.computer-nav{border-right:0;border-bottom:1px solid var(--line);max-height:230px}}
     @media(max-width:540px){.study-actions{grid-template-columns:1fr}.site-header h1{font-size:28px}.audio-url-row{grid-template-columns:1fr}}
   </style>
 </head>
@@ -157,6 +180,7 @@
       <div class="item-list" id="list"></div>
     </section>
   </main>
+  <div class="computer-mode hidden" id="computerMode"></div>
   <footer>著作权所有人：赵亮</footer>
   <script src="data.js?v=vocab-real-audio-links"></script>
   <script>
@@ -170,12 +194,15 @@
     let rollingReview = false;
     let reviewOnlyMode = false;
     let mockItems = [];
+    let computerItems = [];
+    let computerIndex = 0;
     let timerDefaultSeconds = 0;
     let timerRemaining = 0;
     let timerId = null;
     const memoryKey = 'ielts-vocab-memory-v1';
     const progressKey = 'ielts-study-progress-v2';
     const draftKey = 'ielts-writing-drafts-v1';
+    const responseKey = 'ielts-user-responses-v1';
     const audioKey = 'ielts-listening-audio-urls-v1';
     const voiceKey = 'ielts-speech-voice-v1';
     const rateKey = 'ielts-speech-rate-v1';
@@ -208,6 +235,7 @@
     const mockModeButton = document.querySelector('#mockMode');
     const exportProgressButton = document.querySelector('#exportProgress');
     const mockPanel = document.querySelector('#mockPanel');
+    const computerMode = document.querySelector('#computerMode');
     const timerDisplay = document.querySelector('#timerDisplay');
     const timerStartButton = document.querySelector('#timerStart');
     const timerPauseButton = document.querySelector('#timerPause');
@@ -262,6 +290,60 @@
       const drafts = loadDrafts();
       return drafts[id] || '';
     }
+    function loadResponses(){
+      try { return JSON.parse(localStorage.getItem(responseKey) || '{}'); }
+      catch { return {}; }
+    }
+    function saveResponse(key, value){
+      const responses = loadResponses();
+      responses[key] = value;
+      try { localStorage.setItem(responseKey, JSON.stringify(responses)); } catch {}
+    }
+    function responseFor(key){
+      const responses = loadResponses();
+      return responses[key] || '';
+    }
+    function questionKey(item, q){
+      return `${item.id}::${q.number}`;
+    }
+    function renderQuestionInput(item, q, compact=false){
+      const key = questionKey(item, q);
+      const saved = responseFor(key);
+      if (q.options?.length) {
+        return `<div class="response-box"><label>Your answer</label><div class="option-list">${q.options.map((option, idx) => {
+          const id = `${key}::${idx}`.replace(/[^a-zA-Z0-9_-]/g, '-');
+          return `<label class="option-label" for="${esc(id)}"><input id="${esc(id)}" type="radio" name="${esc(key)}" value="${esc(option)}" ${saved === option ? 'checked' : ''} onchange="window.saveQuestionResponse('${esc(key)}', this.value)"><span>${esc(option)}</span></label>`;
+        }).join('')}</div></div>`;
+      }
+      if (/short answer|completion|note|form|sentence|summary/i.test(q.type || '')) {
+        return `<div class="response-box"><label for="${esc(key)}">Your answer</label><input id="${esc(key)}" type="text" value="${esc(saved)}" placeholder="Type your answer" oninput="window.saveQuestionResponse('${esc(key)}', this.value)"></div>`;
+      }
+      return `<div class="response-box"><label for="${esc(key)}">Your response</label><textarea id="${esc(key)}" placeholder="Type your response" oninput="window.saveQuestionResponse('${esc(key)}', this.value)">${esc(saved)}</textarea></div>`;
+    }
+    function renderQuestionBlock(item, q, compact=false){
+      return `<div class="question-row" id="q-${esc(item.id)}-${esc(q.number)}"><b>${q.number}. ${esc(q.question)}</b><p class="muted">${esc(q.type)}</p>${renderQuestionInput(item, q, compact)}${answerBlock(`<b>Answer:</b> ${esc(q.answer)}\n<b>Explanation:</b> ${esc(q.explanation)}`)}</div>`;
+    }
+    function bindSpeakingResponse(item){
+      const node = document.querySelector('#speakingResponse');
+      const counter = document.querySelector('#speakingWordCount');
+      if (!node || !counter) return;
+      const key = `${item.id}::speaking`;
+      const update = () => {
+        saveResponse(key, node.value);
+        counter.textContent = `${wordCount(node.value)} words`;
+      };
+      node.addEventListener('input', update);
+      update();
+    }
+    window.saveQuestionResponse = (key, value) => {
+      saveResponse(key, value);
+      if (!computerMode.classList.contains('hidden')) {
+        document.querySelectorAll('[data-cbt-index]').forEach(btn => {
+          const item = computerItems[Number(btn.dataset.cbtIndex)];
+          if (item) btn.classList.toggle('answered', isItemAnswered(item));
+        });
+      }
+    };
     function loadAudioUrls(){
       try { return JSON.parse(localStorage.getItem(audioKey) || '{}'); }
       catch { return {}; }
@@ -423,6 +505,8 @@
     }
     function updateTimerDisplay(){
       timerDisplay.textContent = formatTime(timerRemaining);
+      const computerClock = document.querySelector('.computer-clock');
+      if (computerClock) computerClock.textContent = formatTime(timerRemaining);
     }
     function setTimer(seconds){
       timerDefaultSeconds = seconds;
@@ -522,12 +606,12 @@
             <div class="field"><label for="audioFile">本地授权音频</label><input id="audioFile" type="file" accept="audio/*" onchange="window.loadAudioFile(this)"></div>
             <audio id="audioPlayer" controls ${audioUrl ? `src="${esc(audioUrl)}"` : ''}></audio>
           </div>
-          <h3>Questions</h3>${item.questions.map(q => `<div class="question-row"><b>${q.number}. ${esc(q.question)}</b><p class="muted">${esc(q.type)}</p>${answerBlock(`<b>Answer:</b> ${esc(q.answer)}\n<b>Explanation:</b> ${esc(q.explanation)}`)}</div>`).join('')}
+          <h3>Questions</h3>${item.questions.map(q => renderQuestionBlock(item, q)).join('')}
           <h3>Audio script</h3>${answerBlock(esc(item.audioScript))}
           <h3>Tips</h3><ul>${item.tips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
       } else if (item.section === 'Reading') {
         detail.innerHTML = `${meta}<h2>${esc(item.title)}</h2><h3>Passage</h3><p>${esc(item.passage)}</p>
-          <h3>Questions</h3>${item.questions.map(q => `<div class="question-row"><b>${q.number}. ${esc(q.question)}</b><p class="muted">${esc(q.type)}</p>${answerBlock(`<b>Answer:</b> ${esc(q.answer)}\n<b>Explanation:</b> ${esc(q.explanation)}`)}</div>`).join('')}
+          <h3>Questions</h3>${item.questions.map(q => renderQuestionBlock(item, q)).join('')}
           <h3>Skills</h3><ul>${item.skills.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
       } else if (item.section.startsWith('Writing')) {
         detail.innerHTML = `${meta}<h2>${esc(item.section)} · ${esc(item.title)}</h2><p><b>Prompt:</b> ${esc(item.prompt)}</p>
@@ -542,9 +626,11 @@
         bindWritingDraft(item);
       } else {
         detail.innerHTML = `${meta}<h2>${esc(item.title)}</h2><h3>Questions</h3><ul>${item.questions.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+          <div class="response-box"><label for="speakingResponse">Your speaking notes / sample answer</label><textarea id="speakingResponse" placeholder="Write keywords or a full spoken answer.">${esc(responseFor(`${item.id}::speaking`))}</textarea><div class="draft-meta"><span id="speakingWordCount">0 words</span><span>Saved locally in this browser</span></div></div>
           <h3>Band 7+ answer method</h3>${answerBlock(esc(item.band7Sample))}
           <h3>Useful vocabulary</h3><ul>${item.vocabulary.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
           <h3>Common problems</h3><ul>${item.commonProblems.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+        bindSpeakingResponse(item);
       }
       updateSelectedCards();
       updateVocabStatus();
@@ -742,6 +828,94 @@
         <div class="mock-list">${mockItems.map(item => `<button class="mock-link" data-id="${esc(item.id)}">${esc(item.id)} · ${esc(item.section)}</button>`).join('')}</div>`;
       mockPanel.querySelectorAll('.mock-link').forEach(node => node.addEventListener('click', () => renderDetail(ALL.find(item => item.id === node.dataset.id))));
     }
+    function itemQuestionCount(item){
+      if (item.questions?.length) return item.questions.length;
+      return item.section?.startsWith('Writing') ? 1 : 1;
+    }
+    function isItemAnswered(item){
+      if (item.questions?.length) return item.questions.some(q => !!responseFor(questionKey(item, q)));
+      if (item.section?.startsWith('Writing')) return !!draftFor(item.id);
+      if (item.section === 'Speaking') return !!responseFor(`${item.id}::speaking`);
+      return false;
+    }
+    function mockItemMaterial(item){
+      if (item.section === 'Listening') {
+        return `<h2>${esc(item.title)}</h2><p>${esc(item.context)}</p><div class="audio-panel"><h3>Audio</h3><div class="official-audio-links">${itemOfficialAudioLink(item)}</div><button onclick="window.playComputerListening()">浏览器朗读</button></div><h3>Listening notes</h3><p class="muted">Use the questions on the right while listening. Answers are saved automatically.</p>`;
+      }
+      if (item.section === 'Reading') {
+        return `<h2>${esc(item.title)}</h2><p>${esc(item.passage)}</p>`;
+      }
+      if (item.section?.startsWith('Writing')) {
+        return `<h2>${esc(item.section)}</h2><p>${esc(item.prompt)}</p><h3>Timing</h3><p>${item.section === 'Writing Task 1' ? 'Write at least 150 words in about 20 minutes.' : 'Write at least 250 words in about 40 minutes.'}</p>`;
+      }
+      if (item.section === 'Speaking') {
+        return `<h2>${esc(item.title)}</h2><h3>Prompt card</h3><ul>${item.questions.map(t => `<li>${esc(t)}</li>`).join('')}</ul>`;
+      }
+      return `<h2>${esc(item.title || item.id)}</h2>`;
+    }
+    function mockItemAnswerArea(item){
+      if (item.questions?.length) {
+        return `<h2>Questions</h2>${item.questions.map(q => renderQuestionBlock(item, q, true)).join('')}`;
+      }
+      if (item.section?.startsWith('Writing')) {
+        return `<h2>Answer</h2><div class="draft-pad"><textarea id="writingDraft" placeholder="Type your writing answer here.">${esc(draftFor(item.id))}</textarea><div class="draft-meta"><span id="draftWordCount">0 words</span><span>Saved automatically</span></div></div>`;
+      }
+      if (item.section === 'Speaking') {
+        return `<h2>Answer notes</h2><textarea id="speakingResponse" placeholder="Type notes or a full sample answer.">${esc(responseFor(`${item.id}::speaking`))}</textarea><div class="draft-meta"><span id="speakingWordCount">0 words</span><span>Saved automatically</span></div>`;
+      }
+      return '<p>No answer area for this item.</p>';
+    }
+    function renderComputerMode(){
+      if (!computerItems.length) {
+        computerMode.classList.add('hidden');
+        computerMode.innerHTML = '';
+        return;
+      }
+      const item = computerItems[computerIndex] || computerItems[0];
+      const totalQuestions = computerItems.reduce((sum, it) => sum + itemQuestionCount(it), 0);
+      const answeredItems = computerItems.filter(isItemAnswered).length;
+      computerMode.classList.remove('hidden');
+      computerMode.innerHTML = `<div class="computer-top"><div><div class="computer-title">IELTS Computer-delivered Mock Test</div><div class="muted">${computerIndex + 1}/${computerItems.length} items · ${totalQuestions} questions · ${answeredItems} items answered</div></div><div class="row"><div class="computer-clock">${esc(formatTime(timerRemaining))}</div><button class="ghost" onclick="window.exitComputerMode()">退出机考</button><button onclick="window.finishComputerMode()">交卷</button></div></div>
+        <div class="computer-layout">
+          <nav class="computer-nav"><h3>Test parts</h3>${computerItems.map((it, idx) => `<button data-cbt-index="${idx}" class="${idx === computerIndex ? 'active' : ''} ${isItemAnswered(it) ? 'answered' : ''}" onclick="window.goComputerItem(${idx})">${idx + 1}. ${esc(it.section)}<br><span class="muted">${esc(it.id)} ${isItemAnswered(it) ? '· answered' : ''}</span></button>`).join('')}<h3>Question status</h3><div class="question-nav">${computerItems.map((it, idx) => `<button data-cbt-index="${idx}" class="${isItemAnswered(it) ? 'answered' : ''}" onclick="window.goComputerItem(${idx})">${idx + 1}</button>`).join('')}</div></nav>
+          <div class="computer-main">
+            <section class="computer-pane">${mockItemMaterial(item)}</section>
+            <section class="computer-pane">${mockItemAnswerArea(item)}<div class="row" style="margin-top:14px"><button class="ghost" onclick="window.prevComputerItem()">上一题</button><button onclick="window.nextComputerItem()">下一题</button></div></section>
+          </div>
+        </div>`;
+      if (item.section?.startsWith('Writing')) bindWritingDraft(item);
+      if (item.section === 'Speaking') bindSpeakingResponse(item);
+    }
+    function startComputerMode(items){
+      computerItems = items;
+      computerIndex = 0;
+      answersVisible = false;
+      document.body.style.overflow = 'hidden';
+      startTimer(2 * 60 * 60);
+      renderComputerMode();
+    }
+    window.playComputerListening = () => {
+      const item = computerItems[computerIndex];
+      if (item?.audioScript) speak(item.audioScript);
+    };
+    window.goComputerItem = idx => {
+      computerIndex = Math.max(0, Math.min(computerItems.length - 1, idx));
+      renderComputerMode();
+    };
+    window.prevComputerItem = () => window.goComputerItem(computerIndex - 1);
+    window.nextComputerItem = () => window.goComputerItem(computerIndex + 1);
+    window.exitComputerMode = () => {
+      computerItems = [];
+      pauseTimer();
+      document.body.style.overflow = '';
+      renderComputerMode();
+      refresh();
+    };
+    window.finishComputerMode = () => {
+      computerItems.forEach(item => completed.add(item.id));
+      saveProgress();
+      window.exitComputerMode();
+    };
     function generateMockMode(){
       rollingReview = false;
       reviewOnlyMode = false;
@@ -756,14 +930,7 @@
         ...pickSection('Speaking', 2),
       ];
       activeItems = mockItems;
-      document.querySelector('#count').textContent = mockItems.length;
-      document.querySelector('#total').textContent = ALL.length;
-      document.querySelector('#mode').textContent = 'Mock';
-      renderTabs();
-      renderMockPanel();
-      renderList(mockItems);
-      renderDetail(mockItems[0]);
-      startTimer(2 * 60 * 60);
+      startComputerMode(mockItems);
     }
     window.exitMockMode = () => {
       mockItems = [];
