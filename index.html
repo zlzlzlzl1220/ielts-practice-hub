@@ -52,6 +52,7 @@
       <div class="field"><label for="keyword">Search</label><input id="keyword" placeholder="topic, answer, skill"></div>
       <div class="field"><label for="year">Year</label><select id="year"></select></div>
       <div class="field"><label for="section">Section</label><select id="section"></select></div>
+      <div class="field"><label for="vocabTopic">Vocabulary topic</label><select id="vocabTopic"></select></div>
       <div class="row"><button id="random">Random</button><button class="ghost" id="showAnswers">Toggle answers</button></div>
       <h3>Important</h3>
       <p class="muted">This site uses original practice materials based on recent topic trends. It does not reproduce official IELTS exam papers or copyrighted audio.</p>
@@ -72,12 +73,15 @@
   <script src="data.js"></script>
   <script>
     const DATA = window.IELTS_DATA || {};
-    const ALL = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
+    const PRACTICE = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
+    const VOCAB = DATA.vocabulary || [];
+    const ALL = [...PRACTICE, ...VOCAB];
     let current = ALL[0];
     let answersVisible = false;
     const keyword = document.querySelector('#keyword');
     const year = document.querySelector('#year');
     const section = document.querySelector('#section');
+    const vocabTopic = document.querySelector('#vocabTopic');
     const detail = document.querySelector('#detail');
     const list = document.querySelector('#list');
 
@@ -86,7 +90,8 @@
     function allText(item){return JSON.stringify(item).toLowerCase()}
     function filtered(){
       const q = keyword.value.trim().toLowerCase();
-      return ALL.filter(item => (year.value === 'All' || String(item.year) === year.value)
+      return ALL.filter(item => (item.section === 'Vocabulary' || year.value === 'All' || String(item.year) === year.value)
+        && (item.section !== 'Vocabulary' || vocabTopic.value === 'All' || item.topic === vocabTopic.value)
         && (section.value === 'All' || item.section === section.value)
         && (!q || allText(item).includes(q)));
     }
@@ -99,7 +104,7 @@
       window.speechSynthesis.speak(utter);
     }
     function renderTabs(){
-      const sections = ['All','Listening','Reading','Writing Task 1','Writing Task 2','Speaking'];
+      const sections = ['All','Listening','Reading','Writing Task 1','Writing Task 2','Speaking','Vocabulary'];
       document.querySelector('#tabs').innerHTML = sections.map(s => `<button class="tab ${section.value===s?'active':''}" data-section="${esc(s)}">${esc(s)}</button>`).join('');
       document.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => { section.value = btn.dataset.section; refresh(); }));
     }
@@ -108,7 +113,13 @@
       if (!item) { detail.innerHTML = '<p>No item found.</p>'; return; }
       current = item;
       const meta = `<div class="meta"><span class="pill">${esc(item.id)}</span><span class="pill green">${esc(item.section)}</span><span class="pill orange">${esc(item.year)}</span></div>`;
-      if (item.section === 'Listening') {
+      if (item.section === 'Vocabulary') {
+        detail.innerHTML = `${meta}<h2>${esc(item.word)} <span class="muted">${esc(item.phonetic)}</span></h2>
+          <div class="row"><button onclick="window.speakText('${esc(item.word)}')">Play word</button><button class="ghost" onclick="window.speakText('${esc(item.example)}')">Play sentence</button></div>
+          <h3>中文释义</h3><p>${esc(item.meaningZh)}</p>
+          <h3>Example</h3><p>${esc(item.example)}</p><p class="muted">${esc(item.exampleZh)}</p>
+          <h3>Collocations</h3><ul>${item.collocations.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+      } else if (item.section === 'Listening') {
         detail.innerHTML = `${meta}<h2>${esc(item.title)}</h2><p>${esc(item.context)}</p>
           <div class="row"><button onclick="window.playCurrentListening()">Play script</button><button class="ghost" onclick="speechSynthesis.cancel()">Stop</button></div>
           <h3>Questions</h3>${item.questions.map(q => `<div class="question-row"><b>${q.number}. ${esc(q.question)}</b><p class="muted">${esc(q.type)}</p>${answerBlock(`<b>Answer:</b> ${esc(q.answer)}\n<b>Explanation:</b> ${esc(q.explanation)}`)}</div>`).join('')}
@@ -131,8 +142,11 @@
       }
     }
     window.playCurrentListening = () => current?.audioScript && speak(current.audioScript);
+    window.speakText = text => speak(text);
     function renderList(items){
-      list.innerHTML = items.map(item => `<div class="mini" data-id="${esc(item.id)}"><b>${esc(item.id)} · ${esc(item.section)} · ${esc(item.year)}</b><p>${esc(item.title || item.prompt)}</p></div>`).join('');
+      const limited = items.slice(0, 240);
+      const note = items.length > limited.length ? `<p class="muted">Showing first ${limited.length} of ${items.length}. Use search or filters to narrow the vocabulary list.</p>` : '';
+      list.innerHTML = note + limited.map(item => `<div class="mini" data-id="${esc(item.id)}"><b>${esc(item.id)} · ${esc(item.section)} · ${esc(item.year)}</b><p>${esc(item.title || item.word || item.prompt)}</p></div>`).join('');
       document.querySelectorAll('.mini').forEach(node => node.addEventListener('click', () => renderDetail(ALL.find(i => i.id === node.dataset.id))));
     }
     function refresh(){
@@ -144,10 +158,11 @@
       renderList(items);
       renderDetail(items[0]);
     }
-    options(year, ['All', ...Array.from(new Set(ALL.map(i => i.year))).sort()]);
+    options(year, ['All', ...Array.from(new Set(PRACTICE.map(i => i.year))).sort()]);
     options(section, ['All', ...Array.from(new Set(ALL.map(i => i.section))).sort()]);
+    options(vocabTopic, ['All', ...Array.from(new Set(VOCAB.map(i => i.topic))).sort()]);
     document.querySelector('#officialLinks').innerHTML = '<h3>Official resources</h3>' + (DATA.officialLinks || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noreferrer">${esc(l.label)}</a>`).join('');
-    [keyword, year, section].forEach(el => el.addEventListener('input', refresh));
+    [keyword, year, section, vocabTopic].forEach(el => el.addEventListener('input', refresh));
     document.querySelector('#random').addEventListener('click', () => { const items = filtered(); renderDetail(items[Math.floor(Math.random()*items.length)]); });
     document.querySelector('#showAnswers').addEventListener('click', () => { answersVisible = !answersVisible; renderDetail(current); });
     refresh();

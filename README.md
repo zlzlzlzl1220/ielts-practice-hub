@@ -10,5 +10,6 @@ Total items:
 - Reading tests: 15
 - Writing tasks: 18
 - Speaking topic sets: 9
+- Vocabulary items: 3000
 
 Deploy with GitHub Pages from the repository root.
