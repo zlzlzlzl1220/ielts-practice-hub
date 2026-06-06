@@ -105,9 +105,17 @@
     .question-nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
     .question-nav button{width:34px;height:34px;padding:0;border-radius:4px;background:#fff;color:var(--blue);border:1px solid #b7cbe8}
     .question-nav button.answered{background:#e8faf4;color:#08745f;border-color:#b7eadb}
+    .scorecard{position:fixed;inset:0;background:#f4f7fb;z-index:25;overflow:auto;padding:18px}
+    .scorecard-inner{width:min(1180px,calc(100vw - 28px));margin:0 auto}
+    .score-summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0}
+    .score-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+    .score-table th,.score-table td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}
+    .score-table th{background:#edf5ff;color:var(--blue)}
+    .mark-correct{color:#08745f;font-weight:900}.mark-wrong{color:#b42318;font-weight:900}.mark-subjective{color:#b45309;font-weight:900}
+    .self-score-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 0}
     .official a{display:block;margin:6px 0;color:#1d4ed8}
     footer{width:min(1240px,calc(100vw - 28px));margin:-22px auto 34px;color:var(--muted);font-size:13px;text-align:center}
-    @media(max-width:960px){.header-inner,main{grid-template-columns:1fr}.hero-actions{justify-content:flex-start}aside{position:static}.grid,.dashboard,.item-list,.mock-list{grid-template-columns:1fr}.study-actions{grid-template-columns:1fr 1fr}.computer-layout,.computer-main{grid-template-columns:1fr}.computer-nav{border-right:0;border-bottom:1px solid var(--line);max-height:230px}}
+    @media(max-width:960px){.header-inner,main{grid-template-columns:1fr}.hero-actions{justify-content:flex-start}aside{position:static}.grid,.dashboard,.item-list,.mock-list,.score-summary,.self-score-grid{grid-template-columns:1fr}.study-actions{grid-template-columns:1fr 1fr}.computer-layout,.computer-main{grid-template-columns:1fr}.computer-nav{border-right:0;border-bottom:1px solid var(--line);max-height:230px}}
     @media(max-width:540px){.study-actions{grid-template-columns:1fr}.site-header h1{font-size:28px}.audio-url-row{grid-template-columns:1fr}}
   </style>
 </head>
@@ -829,15 +837,121 @@
       mockPanel.querySelectorAll('.mock-link').forEach(node => node.addEventListener('click', () => renderDetail(ALL.find(item => item.id === node.dataset.id))));
     }
     function itemQuestionCount(item){
-      if (item.questions?.length) return item.questions.length;
+      if (['Listening','Reading'].includes(item.section) && item.questions?.length) return item.questions.length;
       return item.section?.startsWith('Writing') ? 1 : 1;
     }
     function isItemAnswered(item){
-      if (item.questions?.length) return item.questions.some(q => !!responseFor(questionKey(item, q)));
+      if (['Listening','Reading'].includes(item.section) && item.questions?.length) return item.questions.some(q => !!responseFor(questionKey(item, q)));
       if (item.section?.startsWith('Writing')) return !!draftFor(item.id);
       if (item.section === 'Speaking') return !!responseFor(`${item.id}::speaking`);
       return false;
     }
+    function normalizeAnswer(value){
+      return String(value || '').toLowerCase().trim().replace(/\s+/g, ' ').replace(/[.,!?;:]+$/g, '');
+    }
+    function objectiveResult(item, q){
+      const user = responseFor(questionKey(item, q));
+      const correct = normalizeAnswer(user) === normalizeAnswer(q.answer);
+      return {user, correct};
+    }
+    function bandFromRatio(ratio){
+      if (ratio >= .95) return 9;
+      if (ratio >= .88) return 8.5;
+      if (ratio >= .80) return 8;
+      if (ratio >= .72) return 7.5;
+      if (ratio >= .64) return 7;
+      if (ratio >= .56) return 6.5;
+      if (ratio >= .48) return 6;
+      if (ratio >= .40) return 5.5;
+      if (ratio >= .32) return 5;
+      if (ratio >= .24) return 4.5;
+      if (ratio >= .16) return 4;
+      return 3.5;
+    }
+    function roundHalf(value){
+      return Math.round(value * 2) / 2;
+    }
+    function selfScoreValue(id){
+      const node = document.querySelector(`#${id}`);
+      return node ? Number(node.value || 0) : 0;
+    }
+    function estimateScores(items){
+      const objectiveSections = ['Listening','Reading'];
+      const scores = {};
+      objectiveSections.forEach(sectionName => {
+        const qs = items.filter(item => item.section === sectionName).flatMap(item => item.questions.map(q => ({item, q})));
+        const correct = qs.filter(({item, q}) => objectiveResult(item, q).correct).length;
+        scores[sectionName] = qs.length ? bandFromRatio(correct / qs.length) : 0;
+      });
+      const w1 = selfScoreValue('selfScoreWritingTask1');
+      const w2 = selfScoreValue('selfScoreWritingTask2');
+      const speaking = selfScoreValue('selfScoreSpeaking');
+      scores.Writing = w1 || w2 ? roundHalf(((w1 || w2 || 0) + (w2 || w1 || 0)) / 2) : 0;
+      scores.Speaking = speaking || 0;
+      const available = [scores.Listening, scores.Reading, scores.Writing, scores.Speaking].filter(Boolean);
+      scores.Overall = available.length ? roundHalf(available.reduce((a,b)=>a+b,0) / available.length) : 0;
+      return scores;
+    }
+    function scoreOptions(selected=0){
+      const values = [9,8.5,8,7.5,7,6.5,6,5.5,5,4.5,4,3.5,3,2.5,2,1.5,1,0];
+      return values.map(v => `<option value="${v}" ${Number(selected) === v ? 'selected' : ''}>${v.toFixed(v % 1 ? 1 : 0)}</option>`).join('');
+    }
+    function renderScoreSummary(scores){
+      const labels = [['Listening', scores.Listening], ['Reading', scores.Reading], ['Writing', scores.Writing], ['Speaking', scores.Speaking], ['Overall', scores.Overall]];
+      return labels.map(([label, value]) => `<div class="stat"><b>${value ? value : '-'}</b><span>${label}</span></div>`).join('');
+    }
+    function renderAnswerCard(items){
+      pauseTimer();
+      const rows = [];
+      let objectiveTotal = 0;
+      let objectiveCorrect = 0;
+      items.forEach(item => {
+        if (['Listening','Reading'].includes(item.section) && item.questions?.length) {
+          item.questions.forEach(q => {
+            const result = objectiveResult(item, q);
+            objectiveTotal += 1;
+            if (result.correct) objectiveCorrect += 1;
+            rows.push(`<tr><td>${esc(item.section)}<br><span class="muted">${esc(item.id)} Q${q.number}</span></td><td>${esc(q.question)}</td><td>${esc(result.user || '未作答')}</td><td>${esc(q.answer)}</td><td class="${result.correct ? 'mark-correct' : 'mark-wrong'}">${result.correct ? '正确' : '错误'}</td></tr>`);
+          });
+        } else if (item.section?.startsWith('Writing')) {
+          rows.push(`<tr><td>${esc(item.section)}<br><span class="muted">${esc(item.id)}</span></td><td>${esc(item.prompt)}</td><td colspan="2">${esc(draftFor(item.id) || '未作答')}</td><td class="mark-subjective">主观题自评</td></tr>`);
+        } else if (item.section === 'Speaking') {
+          rows.push(`<tr><td>Speaking<br><span class="muted">${esc(item.id)}</span></td><td>${item.questions.map(esc).join('<br>')}</td><td colspan="2">${esc(responseFor(`${item.id}::speaking`) || '未作答')}</td><td class="mark-subjective">主观题自评</td></tr>`);
+        }
+      });
+      computerMode.classList.add('hidden');
+      const existing = document.querySelector('#scorecard');
+      if (existing) existing.remove();
+      const scorecard = document.createElement('div');
+      scorecard.id = 'scorecard';
+      scorecard.className = 'scorecard';
+      scorecard.innerHTML = `<div class="scorecard-inner">
+        <div class="toolbox-head"><div><h2>模考答题卡</h2><p class="muted">客观题已自动判分：${objectiveCorrect}/${objectiveTotal}。写作和口语请选择你的自评分，系统会估算总分。</p></div><div class="row"><button class="ghost" onclick="window.closeAnswerCard()">返回题库</button><button onclick="window.recalculateEstimate()">重新预估</button></div></div>
+        <div class="self-score-grid">
+          <div class="response-box"><label for="selfScoreWritingTask1">Writing Task 1 自评分</label><select id="selfScoreWritingTask1" onchange="window.recalculateEstimate()">${scoreOptions(6)}</select></div>
+          <div class="response-box"><label for="selfScoreWritingTask2">Writing Task 2 自评分</label><select id="selfScoreWritingTask2" onchange="window.recalculateEstimate()">${scoreOptions(6)}</select></div>
+          <div class="response-box"><label for="selfScoreSpeaking">Speaking 自评分</label><select id="selfScoreSpeaking" onchange="window.recalculateEstimate()">${scoreOptions(6)}</select></div>
+          <div class="response-box"><label>说明</label><p class="muted">主观题无法自动准确评分，请按你自己的表现选择分数；预估总分会按四科平均并四舍五入到 0.5。</p></div>
+        </div>
+        <div class="score-summary" id="scoreSummary"></div>
+        <table class="score-table"><thead><tr><th>Part</th><th>题目</th><th>你的答案</th><th>标准答案</th><th>结果</th></tr></thead><tbody>${rows.join('')}</tbody></table>
+      </div>`;
+      document.body.appendChild(scorecard);
+      window.recalculateEstimate();
+    }
+    window.recalculateEstimate = () => {
+      const scores = estimateScores(computerItems);
+      const node = document.querySelector('#scoreSummary');
+      if (node) node.innerHTML = renderScoreSummary(scores);
+    };
+    window.closeAnswerCard = () => {
+      const scorecard = document.querySelector('#scorecard');
+      if (scorecard) scorecard.remove();
+      computerItems = [];
+      document.body.style.overflow = '';
+      renderComputerMode();
+      refresh();
+    };
     function mockItemMaterial(item){
       if (item.section === 'Listening') {
         return `<h2>${esc(item.title)}</h2><p>${esc(item.context)}</p><div class="audio-panel"><h3>Audio</h3><div class="official-audio-links">${itemOfficialAudioLink(item)}</div><button onclick="window.playComputerListening()">浏览器朗读</button></div><h3>Listening notes</h3><p class="muted">Use the questions on the right while listening. Answers are saved automatically.</p>`;
@@ -854,7 +968,7 @@
       return `<h2>${esc(item.title || item.id)}</h2>`;
     }
     function mockItemAnswerArea(item){
-      if (item.questions?.length) {
+      if (['Listening','Reading'].includes(item.section) && item.questions?.length) {
         const title = item.section === 'Listening' ? 'Listening questions / 听力题目与作答区' : item.section === 'Reading' ? 'Reading questions / 阅读题目与作答区' : 'Questions';
         const hint = item.section === 'Listening' ? `<p><b>${esc(item.taskInstruction || 'Complete the questions below.')}</b></p><p class="muted">Listen to the recording on the left, then type answers 1-${item.questions.length} here.</p>` : '';
         return `<h2>${title}</h2>${hint}${item.questions.map(q => renderQuestionBlock(item, q, true)).join('')}`;
@@ -916,7 +1030,7 @@
     window.finishComputerMode = () => {
       computerItems.forEach(item => completed.add(item.id));
       saveProgress();
-      window.exitComputerMode();
+      renderAnswerCard(computerItems);
     };
     function generateMockMode(){
       rollingReview = false;
