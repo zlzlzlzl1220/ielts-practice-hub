@@ -94,11 +94,6 @@
     const PRACTICE = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
     const VOCAB = DATA.vocabulary || [];
     const ALL = [...PRACTICE, ...VOCAB];
-    const OFFICIAL_LISTENING_AUDIO = [
-      {label:'IELTS official sample listening', url:'https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test'},
-      {label:'British Council listening practice', url:'https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening'},
-      {label:'IELTS on computer listening', url:'https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/ielts-on-computer/practice-tests/listening'}
-    ];
     let current = ALL[0];
     let activeItems = ALL;
     let answersVisible = false;
@@ -142,9 +137,6 @@
     }
     function options(el, values){el.innerHTML = values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('')}
     function allText(item){return JSON.stringify(item).toLowerCase()}
-    function officialListeningLinks(){
-      return OFFICIAL_LISTENING_AUDIO.map(link => `<a href="${esc(link.url)}" target="_blank" rel="noreferrer">${esc(link.label)}</a>`).join('');
-    }
     function itemOfficialAudioLink(item){
       if (!item.officialAudio?.url) return '';
       return `<a class="primary-audio" href="${esc(item.officialAudio.url)}" target="_blank" rel="noreferrer">本题真实雅思录音：${esc(item.officialAudio.label)}</a>`;
@@ -259,7 +251,7 @@
           <div class="audio-panel">
             <h3>Audio</h3>
             <p class="muted">Official exam audio is not bundled. Open the official recording page below, or use audio you own/have permission to use.</p>
-            <div class="official-audio-links">${itemOfficialAudioLink(item)}${officialListeningLinks()}</div>
+            <div class="official-audio-links">${itemOfficialAudioLink(item)}</div>
             <div class="row"><button onclick="window.playCurrentListening()">浏览器朗读</button><button class="ghost" onclick="speechSynthesis.cancel()">停止朗读</button></div>
             <div class="audio-url-row"><input id="audioUrl" value="${esc(audioUrl)}" placeholder="Authorized audio URL"><button onclick="window.saveAudioUrl()">加载链接</button><button class="ghost" onclick="window.clearAudioUrl()">清除</button></div>
             <div class="field"><label for="audioFile">本地授权音频</label><input id="audioFile" type="file" accept="audio/*" onchange="window.loadAudioFile(this)"></div>
