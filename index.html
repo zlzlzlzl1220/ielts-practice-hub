@@ -23,6 +23,8 @@
     .field{margin-bottom:14px}
     button{border:0;border-radius:6px;padding:10px 12px;font-weight:700;cursor:pointer;background:var(--blue);color:white}
     button.ghost{background:#f3f4f6;color:#374151;border:1px solid #d1d5db}
+    button.success{background:var(--green);color:#fff}
+    button.warning{background:var(--orange);color:#fff}
     .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
     .stat,.card{border:1px solid var(--line);border-radius:8px;background:#fff;padding:14px}
     .stat b{display:block;font-size:22px}.stat span{font-size:12px;color:var(--muted)}
@@ -34,7 +36,11 @@
     h2{margin:0 0 10px;font-size:22px} h3{margin:18px 0 8px;font-size:15px}
     p,li{line-height:1.65}.muted{color:var(--muted);font-size:13px}.item-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
     .mini{border:1px solid var(--line);border-radius:8px;padding:12px;background:#fff;cursor:pointer;min-height:104px}
-    .mini:hover{border-color:#9ab6ff}.mini b{display:block;margin-bottom:6px}.mini p{margin:0;color:var(--muted);font-size:13px}
+    .mini:hover{border-color:#9ab6ff}.mini.selected{border-color:var(--blue);box-shadow:0 0 0 2px rgba(37,99,235,.12)}
+    .mini.memorized{background:#f0fdf4;border-color:#bbf7d0}.mini b{display:block;margin-bottom:6px}.mini p{margin:0;color:var(--muted);font-size:13px}
+    .mini-badge{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:999px;background:#dcfce7;color:#166534;font-size:11px}
+    .vocab-progress{margin:8px 0 12px;padding:10px;border-radius:8px;background:#f8fafc;color:#475467;font-size:13px}
+    .vocab-tools{margin:-4px 0 8px}
     .answer{background:#f8fafc;border-left:4px solid var(--green);padding:12px;border-radius:8px;white-space:pre-wrap}
     .hidden{display:none}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
     .question-row{border-top:1px solid var(--line);padding:12px 0}.question-row:first-child{border-top:0}
@@ -53,6 +59,8 @@
       <div class="field"><label for="year">Year</label><select id="year"></select></div>
       <div class="field"><label for="section">Section</label><select id="section"></select></div>
       <div class="field"><label for="vocabTopic">Vocabulary topic</label><select id="vocabTopic"></select></div>
+      <div class="row vocab-tools"><button class="ghost" id="nextWord">下一个单词</button><button class="ghost" id="rollingReview">滚动复习</button></div>
+      <p class="muted" id="memorySummary">已记住 0/3000 个词</p>
       <div class="row"><button id="random">Random</button><button class="ghost" id="showAnswers">Toggle answers</button></div>
       <h3>Important</h3>
       <p class="muted">This site uses original practice materials based on 2020-2026 topic trends. It does not reproduce official IELTS exam papers or copyrighted audio.</p>
@@ -70,22 +78,37 @@
       <div class="item-list" id="list"></div>
     </section>
   </main>
-  <script src="data.js?v=2020-2026-bank-3000-vocab"></script>
+  <script src="data.js?v=vocab-memory-2020-2026"></script>
   <script>
     const DATA = window.IELTS_DATA || {};
     const PRACTICE = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
     const VOCAB = DATA.vocabulary || [];
     const ALL = [...PRACTICE, ...VOCAB];
     let current = ALL[0];
+    let activeItems = ALL;
     let answersVisible = false;
+    let rollingReview = false;
+    let rollingTimer = null;
+    const memoryKey = 'ielts-vocab-memory-v1';
+    const memorized = loadMemory();
     const keyword = document.querySelector('#keyword');
     const year = document.querySelector('#year');
     const section = document.querySelector('#section');
     const vocabTopic = document.querySelector('#vocabTopic');
     const detail = document.querySelector('#detail');
     const list = document.querySelector('#list');
+    const memorySummary = document.querySelector('#memorySummary');
+    const rollingReviewButton = document.querySelector('#rollingReview');
 
     function esc(v){return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
+    function loadMemory(){
+      try { return new Set(JSON.parse(localStorage.getItem(memoryKey) || '[]')); }
+      catch { return new Set(); }
+    }
+    function saveMemory(){
+      try { localStorage.setItem(memoryKey, JSON.stringify([...memorized])); }
+      catch {}
+    }
     function options(el, values){el.innerHTML = values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('')}
     function allText(item){return JSON.stringify(item).toLowerCase()}
     function filtered(){
@@ -94,6 +117,30 @@
         && (item.section !== 'Vocabulary' || vocabTopic.value === 'All' || item.topic === vocabTopic.value)
         && (section.value === 'All' || item.section === section.value)
         && (!q || allText(item).includes(q)));
+    }
+    function currentVocabItems(){return filtered().filter(item => item.section === 'Vocabulary')}
+    function vocabProgressText(item){
+      const items = currentVocabItems();
+      const pool = items.length ? items : VOCAB;
+      const index = pool.findIndex(v => v.id === item.id);
+      const remembered = pool.filter(v => memorized.has(v.id)).length;
+      const position = index >= 0 ? `${index + 1}/${pool.length}` : `1/${pool.length}`;
+      return `当前词表 ${position}，已记住 ${remembered}/${pool.length}`;
+    }
+    function updateVocabStatus(){
+      const items = currentVocabItems();
+      const rememberedAll = VOCAB.filter(v => memorized.has(v.id)).length;
+      const rememberedCurrent = items.filter(v => memorized.has(v.id)).length;
+      memorySummary.textContent = items.length
+        ? `当前词表已记住 ${rememberedCurrent}/${items.length}，总计 ${rememberedAll}/${VOCAB.length}`
+        : `总计已记住 ${rememberedAll}/${VOCAB.length} 个词`;
+      rollingReviewButton.textContent = rollingReview ? '停止复习' : '滚动复习';
+      rollingReviewButton.className = rollingReview ? 'warning' : 'ghost';
+    }
+    function updateSelectedCards(){
+      document.querySelectorAll('.mini').forEach(node => {
+        node.classList.toggle('selected', node.dataset.id === current?.id);
+      });
     }
     function speak(text){
       if (!('speechSynthesis' in window)) return alert('Speech synthesis is not supported in this browser.');
@@ -114,8 +161,16 @@
       current = item;
       const meta = `<div class="meta"><span class="pill">${esc(item.id)}</span><span class="pill green">${esc(item.section)}</span><span class="pill orange">${esc(item.year)}</span></div>`;
       if (item.section === 'Vocabulary') {
+        const remembered = memorized.has(item.id);
         detail.innerHTML = `${meta}<h2>${esc(item.word)} <span class="muted">${esc(item.phonetic)}</span></h2>
-          <div class="row"><button onclick="window.speakText('${esc(item.word)}')">Play word</button><button class="ghost" onclick="window.speakText('${esc(item.example)}')">Play sentence</button></div>
+          <div class="vocab-progress">${esc(vocabProgressText(item))}</div>
+          <div class="row">
+            <button onclick="window.speakCurrentWord()">播放单词</button>
+            <button class="ghost" onclick="window.speakCurrentExample()">播放例句</button>
+            <button class="${remembered ? 'success' : 'ghost'}" onclick="window.toggleVocabMemory()">${remembered ? '已记住' : '标记已记住'}</button>
+            <button class="ghost" onclick="window.nextVocab()">下一个</button>
+            <button class="${rollingReview ? 'warning' : 'ghost'}" onclick="window.toggleRollingReview()">${rollingReview ? '停止复习' : '滚动复习'}</button>
+          </div>
           <h3>中文释义</h3><p>${esc(item.meaningZh)}</p>
           <h3>Example</h3><p>${esc(item.example)}</p><p class="muted">${esc(item.exampleZh)}</p>
           <h3>Collocations</h3><ul>${item.collocations.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
@@ -140,17 +195,70 @@
           <h3>Useful vocabulary</h3><ul>${item.vocabulary.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
           <h3>Common problems</h3><ul>${item.commonProblems.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
       }
+      updateSelectedCards();
+      updateVocabStatus();
     }
     window.playCurrentListening = () => current?.audioScript && speak(current.audioScript);
     window.speakText = text => speak(text);
+    window.speakCurrentWord = () => current?.word && speak(current.word);
+    window.speakCurrentExample = () => current?.example && speak(current.example);
+    function goNextVocab(auto = false){
+      if (section.value !== 'Vocabulary') section.value = 'Vocabulary';
+      if (year.value !== 'All') year.value = 'All';
+      const items = currentVocabItems();
+      if (!items.length) { stopRollingReview(); refresh(); return; }
+      const index = items.findIndex(item => item.id === current?.id);
+      const next = items[(index + 1 + items.length) % items.length];
+      activeItems = items;
+      document.querySelector('#count').textContent = items.length;
+      document.querySelector('#total').textContent = ALL.length;
+      document.querySelector('#mode').textContent = section.value;
+      renderTabs();
+      renderList(items);
+      renderDetail(next);
+      detail.scrollIntoView({behavior: auto ? 'smooth' : 'smooth', block: 'start'});
+    }
+    function toggleVocabMemory(){
+      if (current?.section !== 'Vocabulary') return;
+      const item = current;
+      memorized.has(item.id) ? memorized.delete(item.id) : memorized.add(item.id);
+      saveMemory();
+      renderList(activeItems);
+      renderDetail(item);
+    }
+    function stopRollingReview(){
+      rollingReview = false;
+      if (rollingTimer) clearInterval(rollingTimer);
+      rollingTimer = null;
+      updateVocabStatus();
+      if (current?.section === 'Vocabulary') renderDetail(current);
+    }
+    function toggleRollingReview(){
+      if (rollingReview) { stopRollingReview(); return; }
+      if (section.value !== 'Vocabulary') section.value = 'Vocabulary';
+      if (year.value !== 'All') year.value = 'All';
+      if (!currentVocabItems().length) { refresh(); return; }
+      rollingReview = true;
+      goNextVocab(true);
+      rollingTimer = setInterval(() => goNextVocab(true), 4200);
+      updateVocabStatus();
+    }
+    window.nextVocab = () => goNextVocab(false);
+    window.toggleVocabMemory = toggleVocabMemory;
+    window.toggleRollingReview = toggleRollingReview;
     function renderList(items){
       const limited = items.slice(0, 240);
       const note = items.length > limited.length ? `<p class="muted">Showing first ${limited.length} of ${items.length}. Use search or filters to narrow the list.</p>` : '';
-      list.innerHTML = note + limited.map(item => `<div class="mini" data-id="${esc(item.id)}"><b>${esc(item.id)} · ${esc(item.section)} · ${esc(item.year)}</b><p>${esc(item.title || item.word || item.prompt)}</p></div>`).join('');
+      list.innerHTML = note + limited.map(item => {
+        const remembered = item.section === 'Vocabulary' && memorized.has(item.id);
+        const badge = remembered ? '<span class="mini-badge">已记住</span>' : '';
+        return `<div class="mini ${item.id === current?.id ? 'selected' : ''} ${remembered ? 'memorized' : ''}" data-id="${esc(item.id)}"><b>${esc(item.id)} · ${esc(item.section)} · ${esc(item.year)}${badge}</b><p>${esc(item.title || item.word || item.prompt)}</p></div>`;
+      }).join('');
       document.querySelectorAll('.mini').forEach(node => node.addEventListener('click', () => renderDetail(ALL.find(i => i.id === node.dataset.id))));
     }
     function refresh(){
       const items = filtered();
+      activeItems = items;
       document.querySelector('#count').textContent = items.length;
       document.querySelector('#total').textContent = ALL.length;
       document.querySelector('#mode').textContent = section.value;
@@ -163,6 +271,8 @@
     options(vocabTopic, ['All', ...Array.from(new Set(VOCAB.map(i => i.topic))).sort()]);
     document.querySelector('#officialLinks').innerHTML = '<h3>Official resources</h3>' + (DATA.officialLinks || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noreferrer">${esc(l.label)}</a>`).join('');
     [keyword, year, section, vocabTopic].forEach(el => el.addEventListener('input', refresh));
+    document.querySelector('#nextWord').addEventListener('click', () => goNextVocab(false));
+    rollingReviewButton.addEventListener('click', toggleRollingReview);
     document.querySelector('#random').addEventListener('click', () => { const items = filtered(); renderDetail(items[Math.floor(Math.random()*items.length)]); });
     document.querySelector('#showAnswers').addEventListener('click', () => { answersVisible = !answersVisible; renderDetail(current); });
     refresh();
