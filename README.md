@@ -2,7 +2,7 @@
 
 An IELTS practice website with 2020-2026 topic trends, original IELTS-style practice tests, listening scripts, browser text-to-speech playback, answers and explanations.
 
-This site does not reproduce official IELTS exam papers or copyrighted audio. It uses original practice materials, links to official listening sample resources, and supports user-provided authorized audio URLs/files.
+This site does not reproduce official IELTS exam papers or copyrighted audio. It uses original practice materials and links to official sample resources.
 
 Total items:
 

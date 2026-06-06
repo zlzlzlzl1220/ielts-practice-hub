@@ -7,6 +7,10 @@ window.IELTS_DATA = {
       "title": "Service Enquiry: Home Study Routines",
       "context": "Everyday service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A student calls a local office about home study routines. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is online timetable, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the home form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -65,6 +69,10 @@ window.IELTS_DATA = {
       "title": "Volunteer Briefing: Neighbourhood Food Delivery",
       "context": "Social/community context",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A coordinator explains a weekend activity linked to neighbourhood food delivery. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is contactless payment, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the neighbourhood form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -123,6 +131,10 @@ window.IELTS_DATA = {
       "title": "Visitor Information Talk: Public Health Notices",
       "context": "Public information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A guide introduces a public event about public health notices. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is appointment slot, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -181,6 +193,10 @@ window.IELTS_DATA = {
       "title": "Student Planning Meeting: Virtual Museum Tours",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "Two students organise a short presentation on virtual museum tours. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is digital ticket, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the virtual form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -239,6 +255,10 @@ window.IELTS_DATA = {
       "title": "Academic Lecture Extract: Urban Air Quality",
       "context": "Academic lecture",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A lecturer explains recent research connected with urban air quality. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is traffic reduction, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -297,6 +317,10 @@ window.IELTS_DATA = {
       "title": "Appointment Call: Remote Team Projects",
       "context": "Service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A caller arranges an appointment concerning remote team projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is shared document, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the remote form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -355,6 +379,10 @@ window.IELTS_DATA = {
       "title": "Campus Notice: Community Volunteers",
       "context": "Campus information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A staff member gives students practical information about community volunteers. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is supply box, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -413,6 +441,10 @@ window.IELTS_DATA = {
       "title": "Workshop Introduction: Indoor Fitness Classes",
       "context": "Training talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A trainer introduces a practical workshop on indoor fitness classes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is exercise mat, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the indoor form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -471,6 +503,10 @@ window.IELTS_DATA = {
       "title": "Project Review: Online Shopping Habits",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "Students review progress on a project about online shopping habits. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is return label, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the online form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -529,6 +565,10 @@ window.IELTS_DATA = {
       "title": "Public Advice Recording: Library Click And Collect",
       "context": "Public service information",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A recorded message gives advice related to library click and collect. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reservation code, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the library form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -587,6 +627,10 @@ window.IELTS_DATA = {
       "title": "Interview Extract: Emergency Housing Support",
       "context": "Interview",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "An interviewer asks a local organiser about emergency housing support. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is support form, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the emergency form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -645,6 +689,10 @@ window.IELTS_DATA = {
       "title": "Research Seminar: Distance Learning Tools",
       "context": "Academic seminar",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A researcher summarises findings about distance learning tools. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is video platform, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the distance form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -703,6 +751,10 @@ window.IELTS_DATA = {
       "title": "Travel Desk Conversation: Local Cycling Routes",
       "context": "Travel/service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A visitor asks for details about an activity involving local cycling routes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is safety map, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -761,6 +813,10 @@ window.IELTS_DATA = {
       "title": "Community Meeting: Small Garden Projects",
       "context": "Community meeting",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "Residents discuss a proposal about small garden projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is seed packet, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the small form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -819,6 +875,10 @@ window.IELTS_DATA = {
       "title": "Course Feedback Session: Household Energy Bills",
       "context": "Academic feedback",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "Students give feedback on a course connected with household energy bills. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is smart meter, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the household form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -877,6 +937,10 @@ window.IELTS_DATA = {
       "title": "Service Enquiry: Vaccination Booking Systems",
       "context": "Everyday service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A student calls a local office about vaccination booking systems. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is booking reference, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the vaccination form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -935,6 +999,10 @@ window.IELTS_DATA = {
       "title": "Volunteer Briefing: Hybrid Classroom Design",
       "context": "Social/community context",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A coordinator explains a weekend activity linked to hybrid classroom design. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is camera kit, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the hybrid form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -993,6 +1061,10 @@ window.IELTS_DATA = {
       "title": "Visitor Information Talk: Small Business Recovery",
       "context": "Public information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A guide introduces a public event about small business recovery. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is customer voucher, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the small form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1051,6 +1123,10 @@ window.IELTS_DATA = {
       "title": "Student Planning Meeting: Outdoor Recreation Spaces",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "Two students organise a short presentation on outdoor recreation spaces. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is trail map, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the outdoor form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1109,6 +1185,10 @@ window.IELTS_DATA = {
       "title": "Academic Lecture Extract: Mental Wellbeing Services",
       "context": "Academic lecture",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A lecturer explains recent research connected with mental wellbeing services. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is counselling session, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the mental form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1167,6 +1247,10 @@ window.IELTS_DATA = {
       "title": "Appointment Call: Digital Privacy Workshops",
       "context": "Service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A caller arranges an appointment concerning digital privacy workshops. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is password manager, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the digital form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1225,6 +1309,10 @@ window.IELTS_DATA = {
       "title": "Campus Notice: Reusable Packaging Schemes",
       "context": "Campus information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A staff member gives students practical information about reusable packaging schemes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is deposit box, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the reusable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1283,6 +1371,10 @@ window.IELTS_DATA = {
       "title": "Workshop Introduction: Language Exchange Clubs",
       "context": "Training talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A trainer introduces a practical workshop on language exchange clubs. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is conversation partner, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the language form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1341,6 +1433,10 @@ window.IELTS_DATA = {
       "title": "Project Review: Local Tourism Revival",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "Students review progress on a project about local tourism revival. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is weekend pass, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1399,6 +1495,10 @@ window.IELTS_DATA = {
       "title": "Public Advice Recording: Household Energy Saving",
       "context": "Public service information",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A recorded message gives advice related to household energy saving. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is insulation advice, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the household form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1457,6 +1557,10 @@ window.IELTS_DATA = {
       "title": "Interview Extract: University Lab Safety",
       "context": "Interview",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "An interviewer asks a local organiser about university lab safety. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is protective goggles, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the university form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1515,6 +1619,10 @@ window.IELTS_DATA = {
       "title": "Research Seminar: Green Commuting Rewards",
       "context": "Academic seminar",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A researcher summarises findings about green commuting rewards. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is travel points, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the green form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1573,6 +1681,10 @@ window.IELTS_DATA = {
       "title": "Travel Desk Conversation: Online Banking Support",
       "context": "Travel/service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A visitor asks for details about an activity involving online banking support. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is security code, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the online form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1631,6 +1743,10 @@ window.IELTS_DATA = {
       "title": "Community Meeting: Food Waste Campaigns",
       "context": "Community meeting",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "Residents discuss a proposal about food waste campaigns. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is collection bin, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the food form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1689,6 +1805,10 @@ window.IELTS_DATA = {
       "title": "Course Feedback Session: Community Music Events",
       "context": "Academic feedback",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "Students give feedback on a course connected with community music events. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is rehearsal room, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1747,6 +1867,10 @@ window.IELTS_DATA = {
       "title": "Service Enquiry: Co-working Spaces",
       "context": "Everyday service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A student calls a local office about co-working spaces. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is monthly desk, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the co-working form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1805,6 +1929,10 @@ window.IELTS_DATA = {
       "title": "Volunteer Briefing: Climate Resilience Plans",
       "context": "Social/community context",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A coordinator explains a weekend activity linked to climate resilience plans. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is flood barrier, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the climate form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1863,6 +1991,10 @@ window.IELTS_DATA = {
       "title": "Visitor Information Talk: Public Transport Passes",
       "context": "Public information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A guide introduces a public event about public transport passes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is student discount, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1921,6 +2053,10 @@ window.IELTS_DATA = {
       "title": "Student Planning Meeting: Robotics In Warehouses",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "Two students organise a short presentation on robotics in warehouses. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is sorting robot, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the robotics form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -1979,6 +2115,10 @@ window.IELTS_DATA = {
       "title": "Academic Lecture Extract: Food Security Projects",
       "context": "Academic lecture",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A lecturer explains recent research connected with food security projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is local supplier, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the food form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2037,6 +2177,10 @@ window.IELTS_DATA = {
       "title": "Appointment Call: University Career Fairs",
       "context": "Service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A caller arranges an appointment concerning university career fairs. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is employer list, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the university form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2095,6 +2239,10 @@ window.IELTS_DATA = {
       "title": "Campus Notice: Sustainable Fashion",
       "context": "Campus information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A staff member gives students practical information about sustainable fashion. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is repair workshop, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the sustainable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2153,6 +2301,10 @@ window.IELTS_DATA = {
       "title": "Workshop Introduction: Water Conservation",
       "context": "Training talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A trainer introduces a practical workshop on water conservation. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is leak sensor, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the water form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2211,6 +2363,10 @@ window.IELTS_DATA = {
       "title": "Project Review: Digital Health Records",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "Students review progress on a project about digital health records. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is patient portal, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the digital form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2269,6 +2425,10 @@ window.IELTS_DATA = {
       "title": "Public Advice Recording: Community Sports Facilities",
       "context": "Public service information",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A recorded message gives advice related to community sports facilities. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is booking app, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2327,6 +2487,10 @@ window.IELTS_DATA = {
       "title": "Interview Extract: Electric Vehicle Charging",
       "context": "Interview",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "An interviewer asks a local organiser about electric vehicle charging. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is charging point, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the electric form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2385,6 +2549,10 @@ window.IELTS_DATA = {
       "title": "Research Seminar: Online Fraud Awareness",
       "context": "Academic seminar",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A researcher summarises findings about online fraud awareness. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reporting form, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the online form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2443,6 +2611,10 @@ window.IELTS_DATA = {
       "title": "Travel Desk Conversation: Rural Internet Access",
       "context": "Travel/service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A visitor asks for details about an activity involving rural internet access. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is signal booster, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the rural form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2501,6 +2673,10 @@ window.IELTS_DATA = {
       "title": "Community Meeting: Art Therapy Programmes",
       "context": "Community meeting",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "Residents discuss a proposal about art therapy programmes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is group session, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the art form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2559,6 +2735,10 @@ window.IELTS_DATA = {
       "title": "Course Feedback Session: Urban Farming Trials",
       "context": "Academic feedback",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "Students give feedback on a course connected with urban farming trials. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is hydroponic shelf, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2617,6 +2797,10 @@ window.IELTS_DATA = {
       "title": "Service Enquiry: AI Tutoring Tools",
       "context": "Everyday service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A student calls a local office about ai tutoring tools. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is practice dashboard, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the ai form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2675,6 +2859,10 @@ window.IELTS_DATA = {
       "title": "Volunteer Briefing: Museum Reopening Plans",
       "context": "Social/community context",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A coordinator explains a weekend activity linked to museum reopening plans. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is timed entry, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the museum form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2733,6 +2921,10 @@ window.IELTS_DATA = {
       "title": "Visitor Information Talk: Urban Cycling Networks",
       "context": "Public information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A guide introduces a public event about urban cycling networks. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is protected lane, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2791,6 +2983,10 @@ window.IELTS_DATA = {
       "title": "Student Planning Meeting: Shared Work Hubs",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "Two students organise a short presentation on shared work hubs. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is quiet pod, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the shared form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2849,6 +3045,10 @@ window.IELTS_DATA = {
       "title": "Academic Lecture Extract: Water Reuse Systems",
       "context": "Academic lecture",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A lecturer explains recent research connected with water reuse systems. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is greywater tank, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the water form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2907,6 +3107,10 @@ window.IELTS_DATA = {
       "title": "Appointment Call: Family Budgeting Classes",
       "context": "Service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A caller arranges an appointment concerning family budgeting classes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is spending diary, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the family form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -2965,6 +3169,10 @@ window.IELTS_DATA = {
       "title": "Campus Notice: Noise Reduction In Schools",
       "context": "Campus information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A staff member gives students practical information about noise reduction in schools. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is acoustic panel, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the noise form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3023,6 +3231,10 @@ window.IELTS_DATA = {
       "title": "Workshop Introduction: Circular Economy Projects",
       "context": "Training talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A trainer introduces a practical workshop on circular economy projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reuse centre, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the circular form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3081,6 +3293,10 @@ window.IELTS_DATA = {
       "title": "Project Review: Community Health Screening",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "Students review progress on a project about community health screening. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is blood pressure check, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3139,6 +3355,10 @@ window.IELTS_DATA = {
       "title": "Public Advice Recording: Digital Nomad Accommodation",
       "context": "Public service information",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A recorded message gives advice related to digital nomad accommodation. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is weekly rental, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the digital form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3197,6 +3417,10 @@ window.IELTS_DATA = {
       "title": "Interview Extract: Public Park Redesign",
       "context": "Interview",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "An interviewer asks a local organiser about public park redesign. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is play area, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3255,6 +3479,10 @@ window.IELTS_DATA = {
       "title": "Research Seminar: School Meal Improvements",
       "context": "Academic seminar",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A researcher summarises findings about school meal improvements. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is nutrition label, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the school form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3313,6 +3541,10 @@ window.IELTS_DATA = {
       "title": "Travel Desk Conversation: Heritage Walking Tours",
       "context": "Travel/service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A visitor asks for details about an activity involving heritage walking tours. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is audio guide, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the heritage form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3371,6 +3603,10 @@ window.IELTS_DATA = {
       "title": "Community Meeting: Renewable Heating",
       "context": "Community meeting",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "Residents discuss a proposal about renewable heating. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is heat pump, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the renewable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3429,6 +3665,10 @@ window.IELTS_DATA = {
       "title": "Course Feedback Session: Citizen Science Apps",
       "context": "Academic feedback",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "Students give feedback on a course connected with citizen science apps. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is photo record, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the citizen form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3487,6 +3727,10 @@ window.IELTS_DATA = {
       "title": "Service Enquiry: Campus Bike Rental",
       "context": "Everyday service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A student calls a local office about campus bike rental. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is helmet, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the campus form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3545,6 +3789,10 @@ window.IELTS_DATA = {
       "title": "Volunteer Briefing: Community Garden Volunteers",
       "context": "Social/community context",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A coordinator explains a weekend activity linked to community garden volunteers. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is compost bin, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3603,6 +3851,10 @@ window.IELTS_DATA = {
       "title": "Visitor Information Talk: Museum Audio Tours",
       "context": "Public information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A guide introduces a public event about museum audio tours. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is blue badge, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the museum form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3661,6 +3913,10 @@ window.IELTS_DATA = {
       "title": "Student Planning Meeting: Group Presentation Planning",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "Two students organise a short presentation on group presentation planning. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is case study, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the group form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3719,6 +3975,10 @@ window.IELTS_DATA = {
       "title": "Academic Lecture Extract: Urban Wildlife",
       "context": "Academic lecture",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A lecturer explains recent research connected with urban wildlife. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is nesting site, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3777,6 +4037,10 @@ window.IELTS_DATA = {
       "title": "Appointment Call: Repair Cafes",
       "context": "Service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A caller arranges an appointment concerning repair cafes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is tool station, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the repair form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3835,6 +4099,10 @@ window.IELTS_DATA = {
       "title": "Campus Notice: Urban Trees And Cooling",
       "context": "Campus information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A staff member gives students practical information about urban trees and cooling. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is shade map, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3893,6 +4161,10 @@ window.IELTS_DATA = {
       "title": "Workshop Introduction: Habit Formation",
       "context": "Training talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A trainer introduces a practical workshop on habit formation. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is tracking chart, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the habit form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -3951,6 +4223,10 @@ window.IELTS_DATA = {
       "title": "Project Review: Remote Work And City Centres",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "Students review progress on a project about remote work and city centres. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is commuter survey, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the remote form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4009,6 +4285,10 @@ window.IELTS_DATA = {
       "title": "Public Advice Recording: Ancient Trade Routes",
       "context": "Public service information",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A recorded message gives advice related to ancient trade routes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is ceramic sample, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the ancient form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4067,6 +4347,10 @@ window.IELTS_DATA = {
       "title": "Interview Extract: Evening Classes",
       "context": "Interview",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "An interviewer asks a local organiser about evening classes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is course fee, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the evening form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4125,6 +4409,10 @@ window.IELTS_DATA = {
       "title": "Research Seminar: Town Library Changes",
       "context": "Academic seminar",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A researcher summarises findings about town library changes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is study zone, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the town form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4183,6 +4471,10 @@ window.IELTS_DATA = {
       "title": "Travel Desk Conversation: Financial Skills At School",
       "context": "Travel/service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A visitor asks for details about an activity involving financial skills at school. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is budget plan, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the financial form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4241,6 +4533,10 @@ window.IELTS_DATA = {
       "title": "Community Meeting: Public Transport Investment",
       "context": "Community meeting",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "Residents discuss a proposal about public transport investment. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is route extension, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4299,6 +4595,10 @@ window.IELTS_DATA = {
       "title": "Course Feedback Session: Home Working Patterns",
       "context": "Academic feedback",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "Students give feedback on a course connected with home working patterns. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is flexible schedule, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the home form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4357,6 +4657,10 @@ window.IELTS_DATA = {
       "title": "Service Enquiry: Flat Viewing Appointments",
       "context": "Everyday service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A student calls a local office about flat viewing appointments. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is deposit receipt, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the flat form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4415,6 +4719,10 @@ window.IELTS_DATA = {
       "title": "Volunteer Briefing: Local Fitness Centres",
       "context": "Social/community context",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A coordinator explains a weekend activity linked to local fitness centres. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is trial week, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4473,6 +4781,10 @@ window.IELTS_DATA = {
       "title": "Visitor Information Talk: Library Research Workshops",
       "context": "Public information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A guide introduces a public event about library research workshops. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is citation guide, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the library form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4531,6 +4843,10 @@ window.IELTS_DATA = {
       "title": "Student Planning Meeting: Business Case Study Meetings",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "Two students organise a short presentation on business case study meetings. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is pricing survey, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the business form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4589,6 +4905,10 @@ window.IELTS_DATA = {
       "title": "Academic Lecture Extract: Renewable Energy Projects",
       "context": "Academic lecture",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A lecturer explains recent research connected with renewable energy projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is battery storage, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the renewable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4647,6 +4967,10 @@ window.IELTS_DATA = {
       "title": "Appointment Call: Vertical Farming",
       "context": "Service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A caller arranges an appointment concerning vertical farming. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is LED lighting, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the vertical form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4705,6 +5029,10 @@ window.IELTS_DATA = {
       "title": "Campus Notice: Noise Pollution And Learning",
       "context": "Campus information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A staff member gives students practical information about noise pollution and learning. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reading score, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the noise form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4763,6 +5091,10 @@ window.IELTS_DATA = {
       "title": "Workshop Introduction: Nature Inspired Materials",
       "context": "Training talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A trainer introduces a practical workshop on nature inspired materials. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is surface coating, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the nature form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4821,6 +5153,10 @@ window.IELTS_DATA = {
       "title": "Project Review: Future Public Libraries",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "Students review progress on a project about future public libraries. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is digital access, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the future form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4879,6 +5215,10 @@ window.IELTS_DATA = {
       "title": "Public Advice Recording: Deep Ocean Mapping",
       "context": "Public service information",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A recorded message gives advice related to deep ocean mapping. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is robotic vessel, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the deep form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4937,6 +5277,10 @@ window.IELTS_DATA = {
       "title": "Interview Extract: Housing Affordability",
       "context": "Interview",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "An interviewer asks a local organiser about housing affordability. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is rent cap, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the housing form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -4995,6 +5339,10 @@ window.IELTS_DATA = {
       "title": "Research Seminar: Museum Access Policies",
       "context": "Academic seminar",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A researcher summarises findings about museum access policies. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is free admission, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the museum form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5053,6 +5401,10 @@ window.IELTS_DATA = {
       "title": "Travel Desk Conversation: Technology And Social Life",
       "context": "Travel/service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A visitor asks for details about an activity involving technology and social life. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is screen break, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the technology form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5111,6 +5463,10 @@ window.IELTS_DATA = {
       "title": "Community Meeting: Household Energy Use",
       "context": "Community meeting",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "Residents discuss a proposal about household energy use. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is solar panel, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the household form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5169,6 +5525,10 @@ window.IELTS_DATA = {
       "title": "Course Feedback Session: Public Transport Workers",
       "context": "Academic feedback",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "Students give feedback on a course connected with public transport workers. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is shift timetable, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5227,6 +5587,10 @@ window.IELTS_DATA = {
       "title": "Service Enquiry: Travel Insurance Calls",
       "context": "Everyday service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "A student calls a local office about travel insurance calls. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is policy number, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the travel form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5285,6 +5649,10 @@ window.IELTS_DATA = {
       "title": "Volunteer Briefing: City History Walks",
       "context": "Social/community context",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A coordinator explains a weekend activity linked to city history walks. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is river bridge, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the city form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5343,6 +5711,10 @@ window.IELTS_DATA = {
       "title": "Visitor Information Talk: Student Accommodation Briefings",
       "context": "Public information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "A guide introduces a public event about student accommodation briefings. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is laundry card, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the student form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5401,6 +5773,10 @@ window.IELTS_DATA = {
       "title": "Student Planning Meeting: Research Method Discussions",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "Two students organise a short presentation on research method discussions. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is pilot study, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the research form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5459,6 +5835,10 @@ window.IELTS_DATA = {
       "title": "Academic Lecture Extract: Memory And Sleep Lectures",
       "context": "Academic lecture",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A lecturer explains recent research connected with memory and sleep lectures. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is recall test, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the memory form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5517,6 +5897,10 @@ window.IELTS_DATA = {
       "title": "Appointment Call: AI In Medical Triage",
       "context": "Service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "A caller arranges an appointment concerning ai in medical triage. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is risk score, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the ai form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5575,6 +5959,10 @@ window.IELTS_DATA = {
       "title": "Campus Notice: Circular Fashion",
       "context": "Campus information talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "A staff member gives students practical information about circular fashion. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is textile recycling, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the circular form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5633,6 +6021,10 @@ window.IELTS_DATA = {
       "title": "Workshop Introduction: Micro-mobility Streets",
       "context": "Training talk",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
+      },
       "audioScript": "A trainer introduces a practical workshop on micro-mobility streets. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is speed limit, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the micro-mobility form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5691,6 +6083,10 @@ window.IELTS_DATA = {
       "title": "Project Review: Sleep Memory And Learning",
       "context": "Academic discussion",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
+      },
       "audioScript": "Students review progress on a project about sleep memory and learning. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is deep sleep, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the sleep form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5749,6 +6145,10 @@ window.IELTS_DATA = {
       "title": "Public Advice Recording: Climate Data Citizen Science",
       "context": "Public service information",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
+      },
       "audioScript": "A recorded message gives advice related to climate data citizen science. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is weather sensor, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the climate form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5807,6 +6207,10 @@ window.IELTS_DATA = {
       "title": "Interview Extract: AI In Education",
       "context": "Interview",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
+      },
       "audioScript": "An interviewer asks a local organiser about ai in education. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is feedback tool, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the ai form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5865,6 +6269,10 @@ window.IELTS_DATA = {
       "title": "Research Seminar: Local Food Production",
       "context": "Academic seminar",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 2",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
+      },
       "audioScript": "A researcher summarises findings about local food production. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is greenhouse plot, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5923,6 +6331,10 @@ window.IELTS_DATA = {
       "title": "Travel Desk Conversation: Job Mobility",
       "context": "Travel/service conversation",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 3",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
+      },
       "audioScript": "A visitor asks for details about an activity involving job mobility. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is career portfolio, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the job form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -5981,6 +6393,10 @@ window.IELTS_DATA = {
       "title": "Community Meeting: University Redevelopment",
       "context": "Community meeting",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 2 Part 4",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
+      },
       "audioScript": "Residents discuss a proposal about university redevelopment. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is new laboratory, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the university form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
@@ -6039,6 +6455,10 @@ window.IELTS_DATA = {
       "title": "Course Feedback Session: Public Parks And Libraries",
       "context": "Academic feedback",
       "difficulty": "Band 5.5-7.5",
+      "officialAudio": {
+        "label": "British Council Listening Test 1 Part 1",
+        "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
+      },
       "audioScript": "Students give feedback on a course connected with public parks and libraries. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is spending review, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
