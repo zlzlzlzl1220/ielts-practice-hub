@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IELTS Practice Hub 2024-2026</title>
+  <style>
+    :root {
+      --bg:#f7f8fb; --panel:#fff; --ink:#172033; --muted:#667085; --line:#d9deea;
+      --blue:#2563eb; --green:#0f9f7a; --orange:#b45309; --shadow:0 12px 32px rgba(23,32,51,.08);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;letter-spacing:0}
+    header{background:#111827;color:#fff;padding:22px 24px}
+    header h1{margin:0 0 6px;font-size:28px}
+    header p{margin:0;color:#cbd5e1}
+    main{width:min(1240px,calc(100vw - 28px));margin:18px auto 40px;display:grid;grid-template-columns:300px 1fr;gap:16px}
+    aside,section{background:var(--panel);border:1px solid var(--line);border-radius:8px;box-shadow:var(--shadow)}
+    aside{padding:16px;height:fit-content;position:sticky;top:12px}
+    .content{padding:18px}
+    label{display:block;font-size:13px;font-weight:700;margin:0 0 7px}
+    select,input,textarea{width:100%;border:1px solid var(--line);border-radius:6px;padding:10px 11px;font:inherit;background:#fff;color:var(--ink)}
+    .field{margin-bottom:14px}
+    button{border:0;border-radius:6px;padding:10px 12px;font-weight:700;cursor:pointer;background:var(--blue);color:white}
+    button.ghost{background:#f3f4f6;color:#374151;border:1px solid #d1d5db}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+    .stat,.card{border:1px solid var(--line);border-radius:8px;background:#fff;padding:14px}
+    .stat b{display:block;font-size:22px}.stat span{font-size:12px;color:var(--muted)}
+    .tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+    .tab{background:#eef2ff;color:#243b7a;border:1px solid #c7d2fe}.tab.active{background:var(--blue);color:#fff}
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+    .pill{font-size:12px;padding:4px 8px;border-radius:999px;background:#edf2f7;color:#344054;border:1px solid #d7dee8}
+    .pill.green{background:#e8faf4;color:#08745f;border-color:#b7eadb}.pill.orange{background:#fff4e8;color:#a45108;border-color:#ffd3a3}
+    h2{margin:0 0 10px;font-size:22px} h3{margin:18px 0 8px;font-size:15px}
+    p,li{line-height:1.65}.muted{color:var(--muted);font-size:13px}.item-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .mini{border:1px solid var(--line);border-radius:8px;padding:12px;background:#fff;cursor:pointer;min-height:104px}
+    .mini:hover{border-color:#9ab6ff}.mini b{display:block;margin-bottom:6px}.mini p{margin:0;color:var(--muted);font-size:13px}
+    .answer{background:#f8fafc;border-left:4px solid var(--green);padding:12px;border-radius:8px;white-space:pre-wrap}
+    .hidden{display:none}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+    .question-row{border-top:1px solid var(--line);padding:12px 0}.question-row:first-child{border-top:0}
+    .official a{display:block;margin:6px 0;color:#1d4ed8}
+    @media(max-width:860px){main{grid-template-columns:1fr}aside{position:static}.grid,.item-list{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IELTS Practice Hub 2024-2026</h1>
+    <p>Original IELTS-style practice for listening, reading, writing and speaking, with answers and explanations.</p>
+  </header>
+  <main>
+    <aside>
+      <div class="field"><label for="keyword">Search</label><input id="keyword" placeholder="topic, answer, skill"></div>
+      <div class="field"><label for="year">Year</label><select id="year"></select></div>
+      <div class="field"><label for="section">Section</label><select id="section"></select></div>
+      <div class="row"><button id="random">Random</button><button class="ghost" id="showAnswers">Toggle answers</button></div>
+      <h3>Important</h3>
+      <p class="muted">This site uses original practice materials based on recent topic trends. It does not reproduce official IELTS exam papers or copyrighted audio.</p>
+      <div class="official" id="officialLinks"></div>
+    </aside>
+    <section class="content">
+      <div class="grid">
+        <div class="stat"><b id="count">0</b><span>Current items</span></div>
+        <div class="stat"><b id="total">0</b><span>Total items</span></div>
+        <div class="stat"><b id="mode">All</b><span>Selected section</span></div>
+      </div>
+      <div class="tabs" id="tabs"></div>
+      <div class="card" id="detail"></div>
+      <h2>Practice list</h2>
+      <div class="item-list" id="list"></div>
+    </section>
+  </main>
+  <script src="data.js"></script>
+  <script>
+    const DATA = window.IELTS_DATA || {};
+    const ALL = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
+    let current = ALL[0];
+    let answersVisible = false;
+    const keyword = document.querySelector('#keyword');
+    const year = document.querySelector('#year');
+    const section = document.querySelector('#section');
+    const detail = document.querySelector('#detail');
+    const list = document.querySelector('#list');
+
+    function esc(v){return String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
+    function options(el, values){el.innerHTML = values.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('')}
+    function allText(item){return JSON.stringify(item).toLowerCase()}
+    function filtered(){
+      const q = keyword.value.trim().toLowerCase();
+      return ALL.filter(item => (year.value === 'All' || String(item.year) === year.value)
+        && (section.value === 'All' || item.section === section.value)
+        && (!q || allText(item).includes(q)));
+    }
+    function speak(text){
+      if (!('speechSynthesis' in window)) return alert('Speech synthesis is not supported in this browser.');
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'en-GB';
+      utter.rate = 0.92;
+      window.speechSynthesis.speak(utter);
+    }
+    function renderTabs(){
+      const sections = ['All','Listening','Reading','Writing Task 1','Writing Task 2','Speaking'];
+      document.querySelector('#tabs').innerHTML = sections.map(s => `<button class="tab ${section.value===s?'active':''}" data-section="${esc(s)}">${esc(s)}</button>`).join('');
+      document.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => { section.value = btn.dataset.section; refresh(); }));
+    }
+    function answerBlock(html){return `<div class="answer ${answersVisible ? '' : 'hidden'}">${html}</div>`}
+    function renderDetail(item){
+      if (!item) { detail.innerHTML = '<p>No item found.</p>'; return; }
+      current = item;
+      const meta = `<div class="meta"><span class="pill">${esc(item.id)}</span><span class="pill green">${esc(item.section)}</span><span class="pill orange">${esc(item.year)}</span></div>`;
+      if (item.section === 'Listening') {
+        detail.innerHTML = `${meta}<h2>${esc(item.title)}</h2><p>${esc(item.context)}</p>
+          <div class="row"><button onclick="window.playCurrentListening()">Play script</button><button class="ghost" onclick="speechSynthesis.cancel()">Stop</button></div>
+          <h3>Questions</h3>${item.questions.map(q => `<div class="question-row"><b>${q.number}. ${esc(q.question)}</b><p class="muted">${esc(q.type)}</p>${answerBlock(`<b>Answer:</b> ${esc(q.answer)}\n<b>Explanation:</b> ${esc(q.explanation)}`)}</div>`).join('')}
+          <h3>Audio script</h3>${answerBlock(esc(item.audioScript))}
+          <h3>Tips</h3><ul>${item.tips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+      } else if (item.section === 'Reading') {
+        detail.innerHTML = `${meta}<h2>${esc(item.title)}</h2><h3>Passage</h3><p>${esc(item.passage)}</p>
+          <h3>Questions</h3>${item.questions.map(q => `<div class="question-row"><b>${q.number}. ${esc(q.question)}</b><p class="muted">${esc(q.type)}</p>${answerBlock(`<b>Answer:</b> ${esc(q.answer)}\n<b>Explanation:</b> ${esc(q.explanation)}`)}</div>`).join('')}
+          <h3>Skills</h3><ul>${item.skills.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+      } else if (item.section.startsWith('Writing')) {
+        detail.innerHTML = `${meta}<h2>${esc(item.section)} · ${esc(item.title)}</h2><p><b>Prompt:</b> ${esc(item.prompt)}</p>
+          <h3>Suggested structure</h3><ul>${item.structure.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+          <h3>Band 7+ sample direction</h3>${answerBlock(esc(item.band7Sample))}
+          <h3>Common problems</h3><ul>${item.commonProblems.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+      } else {
+        detail.innerHTML = `${meta}<h2>${esc(item.title)}</h2><h3>Questions</h3><ul>${item.questions.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+          <h3>Band 7+ answer method</h3>${answerBlock(esc(item.band7Sample))}
+          <h3>Useful vocabulary</h3><ul>${item.vocabulary.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+          <h3>Common problems</h3><ul>${item.commonProblems.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+      }
+    }
+    window.playCurrentListening = () => current?.audioScript && speak(current.audioScript);
+    function renderList(items){
+      list.innerHTML = items.map(item => `<div class="mini" data-id="${esc(item.id)}"><b>${esc(item.id)} · ${esc(item.section)} · ${esc(item.year)}</b><p>${esc(item.title || item.prompt)}</p></div>`).join('');
+      document.querySelectorAll('.mini').forEach(node => node.addEventListener('click', () => renderDetail(ALL.find(i => i.id === node.dataset.id))));
+    }
+    function refresh(){
+      const items = filtered();
+      document.querySelector('#count').textContent = items.length;
+      document.querySelector('#total').textContent = ALL.length;
+      document.querySelector('#mode').textContent = section.value;
+      renderTabs();
+      renderList(items);
+      renderDetail(items[0]);
+    }
+    options(year, ['All', ...Array.from(new Set(ALL.map(i => i.year))).sort()]);
+    options(section, ['All', ...Array.from(new Set(ALL.map(i => i.section))).sort()]);
+    document.querySelector('#officialLinks').innerHTML = '<h3>Official resources</h3>' + (DATA.officialLinks || []).map(l => `<a href="${esc(l.url)}" target="_blank" rel="noreferrer">${esc(l.label)}</a>`).join('');
+    [keyword, year, section].forEach(el => el.addEventListener('input', refresh));
+    document.querySelector('#random').addEventListener('click', () => { const items = filtered(); renderDetail(items[Math.floor(Math.random()*items.length)]); });
+    document.querySelector('#showAnswers').addEventListener('click', () => { answersVisible = !answersVisible; renderDetail(current); });
+    refresh();
+  </script>
+</body>
+</html>
