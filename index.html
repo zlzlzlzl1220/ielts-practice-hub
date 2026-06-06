@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IELTS Practice Hub 2024-2026</title>
+  <title>IELTS Practice Hub 2020-2026</title>
   <style>
     :root {
       --bg:#f7f8fb; --panel:#fff; --ink:#172033; --muted:#667085; --line:#d9deea;
@@ -44,8 +44,8 @@
 </head>
 <body>
   <header>
-    <h1>IELTS Practice Hub 2024-2026</h1>
-    <p>Original IELTS-style practice for listening, reading, writing and speaking, with answers and explanations.</p>
+    <h1>IELTS Practice Hub 2020-2026</h1>
+    <p>Original IELTS-style practice from 2020 to 2026 for listening, reading, writing and speaking, with answers and explanations.</p>
   </header>
   <main>
     <aside>
@@ -55,7 +55,7 @@
       <div class="field"><label for="vocabTopic">Vocabulary topic</label><select id="vocabTopic"></select></div>
       <div class="row"><button id="random">Random</button><button class="ghost" id="showAnswers">Toggle answers</button></div>
       <h3>Important</h3>
-      <p class="muted">This site uses original practice materials based on recent topic trends. It does not reproduce official IELTS exam papers or copyrighted audio.</p>
+      <p class="muted">This site uses original practice materials based on 2020-2026 topic trends. It does not reproduce official IELTS exam papers or copyrighted audio.</p>
       <div class="official" id="officialLinks"></div>
     </aside>
     <section class="content">
@@ -70,7 +70,7 @@
       <div class="item-list" id="list"></div>
     </section>
   </main>
-  <script src="data.js?v=3000-vocab"></script>
+  <script src="data.js?v=2020-2026-bank-3000-vocab"></script>
   <script>
     const DATA = window.IELTS_DATA || {};
     const PRACTICE = [...DATA.listening, ...DATA.reading, ...DATA.writing, ...DATA.speaking];
@@ -90,7 +90,7 @@
     function allText(item){return JSON.stringify(item).toLowerCase()}
     function filtered(){
       const q = keyword.value.trim().toLowerCase();
-      return ALL.filter(item => (item.section === 'Vocabulary' || year.value === 'All' || String(item.year) === year.value)
+      return ALL.filter(item => (year.value === 'All' || String(item.year) === year.value)
         && (item.section !== 'Vocabulary' || vocabTopic.value === 'All' || item.topic === vocabTopic.value)
         && (section.value === 'All' || item.section === section.value)
         && (!q || allText(item).includes(q)));
@@ -145,7 +145,7 @@
     window.speakText = text => speak(text);
     function renderList(items){
       const limited = items.slice(0, 240);
-      const note = items.length > limited.length ? `<p class="muted">Showing first ${limited.length} of ${items.length}. Use search or filters to narrow the vocabulary list.</p>` : '';
+      const note = items.length > limited.length ? `<p class="muted">Showing first ${limited.length} of ${items.length}. Use search or filters to narrow the list.</p>` : '';
       list.innerHTML = note + limited.map(item => `<div class="mini" data-id="${esc(item.id)}"><b>${esc(item.id)} · ${esc(item.section)} · ${esc(item.year)}</b><p>${esc(item.title || item.word || item.prompt)}</p></div>`).join('');
       document.querySelectorAll('.mini').forEach(node => node.addEventListener('click', () => renderDetail(ALL.find(i => i.id === node.dataset.id))));
     }
