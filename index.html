@@ -606,7 +606,7 @@
             <div class="field"><label for="audioFile">本地授权音频</label><input id="audioFile" type="file" accept="audio/*" onchange="window.loadAudioFile(this)"></div>
             <audio id="audioPlayer" controls ${audioUrl ? `src="${esc(audioUrl)}"` : ''}></audio>
           </div>
-          <h3>Listening questions / 听力题目</h3><p class="muted">Questions 1-${item.questions.length} are below. Type each answer while listening; your responses are saved locally.</p>${item.questions.map(q => renderQuestionBlock(item, q)).join('')}
+          <h3>Listening questions / 听力题目</h3><p><b>${esc(item.taskInstruction || 'Complete the questions below.')}</b></p><p class="muted">Questions 1-${item.questions.length} are below. Type each answer while listening; your responses are saved locally.</p>${item.questions.map(q => renderQuestionBlock(item, q)).join('')}
           <h3>Audio script</h3>${answerBlock(esc(item.audioScript))}
           <h3>Tips</h3><ul>${item.tips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
       } else if (item.section === 'Reading') {
@@ -856,7 +856,7 @@
     function mockItemAnswerArea(item){
       if (item.questions?.length) {
         const title = item.section === 'Listening' ? 'Listening questions / 听力题目与作答区' : item.section === 'Reading' ? 'Reading questions / 阅读题目与作答区' : 'Questions';
-        const hint = item.section === 'Listening' ? `<p class="muted">Listen to the recording on the left, then type answers 1-${item.questions.length} here.</p>` : '';
+        const hint = item.section === 'Listening' ? `<p><b>${esc(item.taskInstruction || 'Complete the questions below.')}</b></p><p class="muted">Listen to the recording on the left, then type answers 1-${item.questions.length} here.</p>` : '';
         return `<h2>${title}</h2>${hint}${item.questions.map(q => renderQuestionBlock(item, q, true)).join('')}`;
       }
       if (item.section?.startsWith('Writing')) {

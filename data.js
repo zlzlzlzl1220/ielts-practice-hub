@@ -11,47 +11,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A student calls a local office about home study routines. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is online timetable, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the home form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "online timetable",
           "explanation": "The recording gives 'online timetable' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 101",
           "explanation": "The recording gives 'room 101' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "13 pounds",
           "explanation": "The recording gives '13 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "home form",
           "explanation": "The recording gives 'home form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -73,47 +74,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A coordinator explains a weekend activity linked to neighbourhood food delivery. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is contactless payment, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the neighbourhood form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "contactless payment",
           "explanation": "The recording gives 'contactless payment' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 102",
           "explanation": "The recording gives 'room 102' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "14 pounds",
           "explanation": "The recording gives '14 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "neighbourhood form",
           "explanation": "The recording gives 'neighbourhood form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -135,47 +137,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A guide introduces a public event about public health notices. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is appointment slot, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "appointment slot",
           "explanation": "The recording gives 'appointment slot' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 103",
           "explanation": "The recording gives 'room 103' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "15 pounds",
           "explanation": "The recording gives '15 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "public form",
           "explanation": "The recording gives 'public form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -197,47 +200,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Two students organise a short presentation on virtual museum tours. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is digital ticket, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the virtual form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "digital ticket",
           "explanation": "The recording gives 'digital ticket' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 104",
           "explanation": "The recording gives 'room 104' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "16 pounds",
           "explanation": "The recording gives '16 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "virtual form",
           "explanation": "The recording gives 'virtual form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -259,47 +263,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A lecturer explains recent research connected with urban air quality. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is traffic reduction, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "traffic reduction",
           "explanation": "The recording gives 'traffic reduction' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 105",
           "explanation": "The recording gives 'room 105' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "17 pounds",
           "explanation": "The recording gives '17 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "urban form",
           "explanation": "The recording gives 'urban form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -321,47 +326,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A caller arranges an appointment concerning remote team projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is shared document, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the remote form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "shared document",
           "explanation": "The recording gives 'shared document' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 106",
           "explanation": "The recording gives 'room 106' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "18 pounds",
           "explanation": "The recording gives '18 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "remote form",
           "explanation": "The recording gives 'remote form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -383,47 +389,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A staff member gives students practical information about community volunteers. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is supply box, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "supply box",
           "explanation": "The recording gives 'supply box' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 107",
           "explanation": "The recording gives 'room 107' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "19 pounds",
           "explanation": "The recording gives '19 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "community form",
           "explanation": "The recording gives 'community form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -445,47 +452,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A trainer introduces a practical workshop on indoor fitness classes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is exercise mat, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the indoor form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "exercise mat",
           "explanation": "The recording gives 'exercise mat' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 108",
           "explanation": "The recording gives 'room 108' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "20 pounds",
           "explanation": "The recording gives '20 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "indoor form",
           "explanation": "The recording gives 'indoor form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -507,47 +515,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students review progress on a project about online shopping habits. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is return label, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the online form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "return label",
           "explanation": "The recording gives 'return label' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 109",
           "explanation": "The recording gives 'room 109' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "21 pounds",
           "explanation": "The recording gives '21 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "online form",
           "explanation": "The recording gives 'online form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -569,47 +578,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A recorded message gives advice related to library click and collect. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reservation code, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the library form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "reservation code",
           "explanation": "The recording gives 'reservation code' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 110",
           "explanation": "The recording gives 'room 110' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "22 pounds",
           "explanation": "The recording gives '22 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "library form",
           "explanation": "The recording gives 'library form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -631,47 +641,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "An interviewer asks a local organiser about emergency housing support. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is support form, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the emergency form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "support form",
           "explanation": "The recording gives 'support form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 111",
           "explanation": "The recording gives 'room 111' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "23 pounds",
           "explanation": "The recording gives '23 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "emergency form",
           "explanation": "The recording gives 'emergency form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -693,47 +704,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A researcher summarises findings about distance learning tools. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is video platform, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the distance form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "video platform",
           "explanation": "The recording gives 'video platform' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 112",
           "explanation": "The recording gives 'room 112' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "24 pounds",
           "explanation": "The recording gives '24 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "distance form",
           "explanation": "The recording gives 'distance form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -755,47 +767,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A visitor asks for details about an activity involving local cycling routes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is safety map, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "safety map",
           "explanation": "The recording gives 'safety map' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 113",
           "explanation": "The recording gives 'room 113' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "25 pounds",
           "explanation": "The recording gives '25 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "local form",
           "explanation": "The recording gives 'local form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -817,47 +830,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Residents discuss a proposal about small garden projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is seed packet, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the small form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "seed packet",
           "explanation": "The recording gives 'seed packet' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 114",
           "explanation": "The recording gives 'room 114' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "26 pounds",
           "explanation": "The recording gives '26 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "small form",
           "explanation": "The recording gives 'small form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -879,47 +893,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students give feedback on a course connected with household energy bills. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is smart meter, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the household form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "smart meter",
           "explanation": "The recording gives 'smart meter' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 115",
           "explanation": "The recording gives 'room 115' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "27 pounds",
           "explanation": "The recording gives '27 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "household form",
           "explanation": "The recording gives 'household form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -941,47 +956,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A student calls a local office about vaccination booking systems. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is booking reference, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the vaccination form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "booking reference",
           "explanation": "The recording gives 'booking reference' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 101",
           "explanation": "The recording gives 'room 101' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "13 pounds",
           "explanation": "The recording gives '13 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "vaccination form",
           "explanation": "The recording gives 'vaccination form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1003,47 +1019,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A coordinator explains a weekend activity linked to hybrid classroom design. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is camera kit, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the hybrid form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "camera kit",
           "explanation": "The recording gives 'camera kit' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 102",
           "explanation": "The recording gives 'room 102' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "14 pounds",
           "explanation": "The recording gives '14 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "hybrid form",
           "explanation": "The recording gives 'hybrid form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1065,47 +1082,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A guide introduces a public event about small business recovery. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is customer voucher, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the small form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "customer voucher",
           "explanation": "The recording gives 'customer voucher' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 103",
           "explanation": "The recording gives 'room 103' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "15 pounds",
           "explanation": "The recording gives '15 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "small form",
           "explanation": "The recording gives 'small form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1127,47 +1145,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Two students organise a short presentation on outdoor recreation spaces. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is trail map, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the outdoor form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "trail map",
           "explanation": "The recording gives 'trail map' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 104",
           "explanation": "The recording gives 'room 104' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "16 pounds",
           "explanation": "The recording gives '16 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "outdoor form",
           "explanation": "The recording gives 'outdoor form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1189,47 +1208,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A lecturer explains recent research connected with mental wellbeing services. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is counselling session, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the mental form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "counselling session",
           "explanation": "The recording gives 'counselling session' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 105",
           "explanation": "The recording gives 'room 105' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "17 pounds",
           "explanation": "The recording gives '17 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "mental form",
           "explanation": "The recording gives 'mental form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1251,47 +1271,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A caller arranges an appointment concerning digital privacy workshops. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is password manager, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the digital form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "password manager",
           "explanation": "The recording gives 'password manager' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 106",
           "explanation": "The recording gives 'room 106' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "18 pounds",
           "explanation": "The recording gives '18 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "digital form",
           "explanation": "The recording gives 'digital form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1313,47 +1334,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A staff member gives students practical information about reusable packaging schemes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is deposit box, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the reusable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "deposit box",
           "explanation": "The recording gives 'deposit box' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 107",
           "explanation": "The recording gives 'room 107' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "19 pounds",
           "explanation": "The recording gives '19 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "reusable form",
           "explanation": "The recording gives 'reusable form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1375,47 +1397,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A trainer introduces a practical workshop on language exchange clubs. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is conversation partner, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the language form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "conversation partner",
           "explanation": "The recording gives 'conversation partner' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 108",
           "explanation": "The recording gives 'room 108' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "20 pounds",
           "explanation": "The recording gives '20 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "language form",
           "explanation": "The recording gives 'language form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1437,47 +1460,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students review progress on a project about local tourism revival. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is weekend pass, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "weekend pass",
           "explanation": "The recording gives 'weekend pass' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 109",
           "explanation": "The recording gives 'room 109' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "21 pounds",
           "explanation": "The recording gives '21 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "local form",
           "explanation": "The recording gives 'local form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1499,47 +1523,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A recorded message gives advice related to household energy saving. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is insulation advice, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the household form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "insulation advice",
           "explanation": "The recording gives 'insulation advice' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 110",
           "explanation": "The recording gives 'room 110' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "22 pounds",
           "explanation": "The recording gives '22 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "household form",
           "explanation": "The recording gives 'household form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1561,47 +1586,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "An interviewer asks a local organiser about university lab safety. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is protective goggles, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the university form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "protective goggles",
           "explanation": "The recording gives 'protective goggles' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 111",
           "explanation": "The recording gives 'room 111' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "23 pounds",
           "explanation": "The recording gives '23 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "university form",
           "explanation": "The recording gives 'university form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1623,47 +1649,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A researcher summarises findings about green commuting rewards. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is travel points, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the green form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "travel points",
           "explanation": "The recording gives 'travel points' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 112",
           "explanation": "The recording gives 'room 112' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "24 pounds",
           "explanation": "The recording gives '24 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "green form",
           "explanation": "The recording gives 'green form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1685,47 +1712,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A visitor asks for details about an activity involving online banking support. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is security code, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the online form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "security code",
           "explanation": "The recording gives 'security code' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 113",
           "explanation": "The recording gives 'room 113' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "25 pounds",
           "explanation": "The recording gives '25 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "online form",
           "explanation": "The recording gives 'online form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1747,47 +1775,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Residents discuss a proposal about food waste campaigns. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is collection bin, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the food form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "collection bin",
           "explanation": "The recording gives 'collection bin' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 114",
           "explanation": "The recording gives 'room 114' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "26 pounds",
           "explanation": "The recording gives '26 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "food form",
           "explanation": "The recording gives 'food form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1809,47 +1838,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students give feedback on a course connected with community music events. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is rehearsal room, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "rehearsal room",
           "explanation": "The recording gives 'rehearsal room' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 115",
           "explanation": "The recording gives 'room 115' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "27 pounds",
           "explanation": "The recording gives '27 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "community form",
           "explanation": "The recording gives 'community form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1871,47 +1901,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A student calls a local office about co-working spaces. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is monthly desk, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the co-working form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "monthly desk",
           "explanation": "The recording gives 'monthly desk' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 101",
           "explanation": "The recording gives 'room 101' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "13 pounds",
           "explanation": "The recording gives '13 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "co-working form",
           "explanation": "The recording gives 'co-working form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1933,47 +1964,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A coordinator explains a weekend activity linked to climate resilience plans. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is flood barrier, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the climate form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "flood barrier",
           "explanation": "The recording gives 'flood barrier' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 102",
           "explanation": "The recording gives 'room 102' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "14 pounds",
           "explanation": "The recording gives '14 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "climate form",
           "explanation": "The recording gives 'climate form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -1995,47 +2027,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A guide introduces a public event about public transport passes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is student discount, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "student discount",
           "explanation": "The recording gives 'student discount' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 103",
           "explanation": "The recording gives 'room 103' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "15 pounds",
           "explanation": "The recording gives '15 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "public form",
           "explanation": "The recording gives 'public form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2057,47 +2090,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Two students organise a short presentation on robotics in warehouses. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is sorting robot, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the robotics form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "sorting robot",
           "explanation": "The recording gives 'sorting robot' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 104",
           "explanation": "The recording gives 'room 104' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "16 pounds",
           "explanation": "The recording gives '16 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "robotics form",
           "explanation": "The recording gives 'robotics form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2119,47 +2153,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A lecturer explains recent research connected with food security projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is local supplier, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the food form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "local supplier",
           "explanation": "The recording gives 'local supplier' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 105",
           "explanation": "The recording gives 'room 105' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "17 pounds",
           "explanation": "The recording gives '17 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "food form",
           "explanation": "The recording gives 'food form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2181,47 +2216,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A caller arranges an appointment concerning university career fairs. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is employer list, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the university form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "employer list",
           "explanation": "The recording gives 'employer list' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 106",
           "explanation": "The recording gives 'room 106' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "18 pounds",
           "explanation": "The recording gives '18 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "university form",
           "explanation": "The recording gives 'university form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2243,47 +2279,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A staff member gives students practical information about sustainable fashion. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is repair workshop, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the sustainable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "repair workshop",
           "explanation": "The recording gives 'repair workshop' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 107",
           "explanation": "The recording gives 'room 107' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "19 pounds",
           "explanation": "The recording gives '19 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "sustainable form",
           "explanation": "The recording gives 'sustainable form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2305,47 +2342,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A trainer introduces a practical workshop on water conservation. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is leak sensor, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the water form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "leak sensor",
           "explanation": "The recording gives 'leak sensor' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 108",
           "explanation": "The recording gives 'room 108' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "20 pounds",
           "explanation": "The recording gives '20 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "water form",
           "explanation": "The recording gives 'water form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2367,47 +2405,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students review progress on a project about digital health records. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is patient portal, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the digital form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "patient portal",
           "explanation": "The recording gives 'patient portal' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 109",
           "explanation": "The recording gives 'room 109' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "21 pounds",
           "explanation": "The recording gives '21 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "digital form",
           "explanation": "The recording gives 'digital form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2429,47 +2468,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A recorded message gives advice related to community sports facilities. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is booking app, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "booking app",
           "explanation": "The recording gives 'booking app' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 110",
           "explanation": "The recording gives 'room 110' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "22 pounds",
           "explanation": "The recording gives '22 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "community form",
           "explanation": "The recording gives 'community form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2491,47 +2531,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "An interviewer asks a local organiser about electric vehicle charging. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is charging point, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the electric form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "charging point",
           "explanation": "The recording gives 'charging point' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 111",
           "explanation": "The recording gives 'room 111' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "23 pounds",
           "explanation": "The recording gives '23 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "electric form",
           "explanation": "The recording gives 'electric form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2553,47 +2594,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A researcher summarises findings about online fraud awareness. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reporting form, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the online form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "reporting form",
           "explanation": "The recording gives 'reporting form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 112",
           "explanation": "The recording gives 'room 112' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "24 pounds",
           "explanation": "The recording gives '24 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "online form",
           "explanation": "The recording gives 'online form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2615,47 +2657,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A visitor asks for details about an activity involving rural internet access. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is signal booster, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the rural form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "signal booster",
           "explanation": "The recording gives 'signal booster' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 113",
           "explanation": "The recording gives 'room 113' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "25 pounds",
           "explanation": "The recording gives '25 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "rural form",
           "explanation": "The recording gives 'rural form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2677,47 +2720,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Residents discuss a proposal about art therapy programmes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is group session, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the art form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "group session",
           "explanation": "The recording gives 'group session' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 114",
           "explanation": "The recording gives 'room 114' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "26 pounds",
           "explanation": "The recording gives '26 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "art form",
           "explanation": "The recording gives 'art form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2739,47 +2783,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students give feedback on a course connected with urban farming trials. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is hydroponic shelf, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "hydroponic shelf",
           "explanation": "The recording gives 'hydroponic shelf' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 115",
           "explanation": "The recording gives 'room 115' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "27 pounds",
           "explanation": "The recording gives '27 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "urban form",
           "explanation": "The recording gives 'urban form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2801,47 +2846,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A student calls a local office about ai tutoring tools. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is practice dashboard, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the ai form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "practice dashboard",
           "explanation": "The recording gives 'practice dashboard' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 101",
           "explanation": "The recording gives 'room 101' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "13 pounds",
           "explanation": "The recording gives '13 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "ai form",
           "explanation": "The recording gives 'ai form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2863,47 +2909,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A coordinator explains a weekend activity linked to museum reopening plans. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is timed entry, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the museum form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "timed entry",
           "explanation": "The recording gives 'timed entry' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 102",
           "explanation": "The recording gives 'room 102' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "14 pounds",
           "explanation": "The recording gives '14 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "museum form",
           "explanation": "The recording gives 'museum form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2925,47 +2972,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A guide introduces a public event about urban cycling networks. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is protected lane, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "protected lane",
           "explanation": "The recording gives 'protected lane' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 103",
           "explanation": "The recording gives 'room 103' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "15 pounds",
           "explanation": "The recording gives '15 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "urban form",
           "explanation": "The recording gives 'urban form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -2987,47 +3035,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Two students organise a short presentation on shared work hubs. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is quiet pod, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the shared form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "quiet pod",
           "explanation": "The recording gives 'quiet pod' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 104",
           "explanation": "The recording gives 'room 104' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "16 pounds",
           "explanation": "The recording gives '16 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "shared form",
           "explanation": "The recording gives 'shared form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3049,47 +3098,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A lecturer explains recent research connected with water reuse systems. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is greywater tank, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the water form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "greywater tank",
           "explanation": "The recording gives 'greywater tank' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 105",
           "explanation": "The recording gives 'room 105' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "17 pounds",
           "explanation": "The recording gives '17 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "water form",
           "explanation": "The recording gives 'water form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3111,47 +3161,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A caller arranges an appointment concerning family budgeting classes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is spending diary, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the family form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "spending diary",
           "explanation": "The recording gives 'spending diary' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 106",
           "explanation": "The recording gives 'room 106' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "18 pounds",
           "explanation": "The recording gives '18 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "family form",
           "explanation": "The recording gives 'family form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3173,47 +3224,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A staff member gives students practical information about noise reduction in schools. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is acoustic panel, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the noise form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "acoustic panel",
           "explanation": "The recording gives 'acoustic panel' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 107",
           "explanation": "The recording gives 'room 107' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "19 pounds",
           "explanation": "The recording gives '19 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "noise form",
           "explanation": "The recording gives 'noise form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3235,47 +3287,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A trainer introduces a practical workshop on circular economy projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reuse centre, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the circular form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "reuse centre",
           "explanation": "The recording gives 'reuse centre' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 108",
           "explanation": "The recording gives 'room 108' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "20 pounds",
           "explanation": "The recording gives '20 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "circular form",
           "explanation": "The recording gives 'circular form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3297,47 +3350,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students review progress on a project about community health screening. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is blood pressure check, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "blood pressure check",
           "explanation": "The recording gives 'blood pressure check' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 109",
           "explanation": "The recording gives 'room 109' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "21 pounds",
           "explanation": "The recording gives '21 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "community form",
           "explanation": "The recording gives 'community form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3359,47 +3413,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A recorded message gives advice related to digital nomad accommodation. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is weekly rental, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the digital form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "weekly rental",
           "explanation": "The recording gives 'weekly rental' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 110",
           "explanation": "The recording gives 'room 110' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "22 pounds",
           "explanation": "The recording gives '22 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "digital form",
           "explanation": "The recording gives 'digital form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3421,47 +3476,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "An interviewer asks a local organiser about public park redesign. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is play area, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "play area",
           "explanation": "The recording gives 'play area' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 111",
           "explanation": "The recording gives 'room 111' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "23 pounds",
           "explanation": "The recording gives '23 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "public form",
           "explanation": "The recording gives 'public form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3483,47 +3539,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A researcher summarises findings about school meal improvements. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is nutrition label, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the school form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "nutrition label",
           "explanation": "The recording gives 'nutrition label' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 112",
           "explanation": "The recording gives 'room 112' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "24 pounds",
           "explanation": "The recording gives '24 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "school form",
           "explanation": "The recording gives 'school form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3545,47 +3602,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A visitor asks for details about an activity involving heritage walking tours. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is audio guide, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the heritage form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "audio guide",
           "explanation": "The recording gives 'audio guide' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 113",
           "explanation": "The recording gives 'room 113' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "25 pounds",
           "explanation": "The recording gives '25 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "heritage form",
           "explanation": "The recording gives 'heritage form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3607,47 +3665,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Residents discuss a proposal about renewable heating. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is heat pump, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the renewable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "heat pump",
           "explanation": "The recording gives 'heat pump' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 114",
           "explanation": "The recording gives 'room 114' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "26 pounds",
           "explanation": "The recording gives '26 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "renewable form",
           "explanation": "The recording gives 'renewable form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3669,47 +3728,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students give feedback on a course connected with citizen science apps. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is photo record, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the citizen form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "photo record",
           "explanation": "The recording gives 'photo record' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 115",
           "explanation": "The recording gives 'room 115' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "27 pounds",
           "explanation": "The recording gives '27 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "citizen form",
           "explanation": "The recording gives 'citizen form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3731,47 +3791,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A student calls a local office about campus bike rental. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is helmet, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the campus form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "helmet",
           "explanation": "The recording gives 'helmet' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 101",
           "explanation": "The recording gives 'room 101' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "13 pounds",
           "explanation": "The recording gives '13 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "campus form",
           "explanation": "The recording gives 'campus form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3793,47 +3854,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A coordinator explains a weekend activity linked to community garden volunteers. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is compost bin, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the community form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "compost bin",
           "explanation": "The recording gives 'compost bin' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 102",
           "explanation": "The recording gives 'room 102' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "14 pounds",
           "explanation": "The recording gives '14 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "community form",
           "explanation": "The recording gives 'community form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3855,47 +3917,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A guide introduces a public event about museum audio tours. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is blue badge, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the museum form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "blue badge",
           "explanation": "The recording gives 'blue badge' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 103",
           "explanation": "The recording gives 'room 103' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "15 pounds",
           "explanation": "The recording gives '15 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "museum form",
           "explanation": "The recording gives 'museum form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3917,47 +3980,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Two students organise a short presentation on group presentation planning. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is case study, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the group form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "case study",
           "explanation": "The recording gives 'case study' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 104",
           "explanation": "The recording gives 'room 104' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "16 pounds",
           "explanation": "The recording gives '16 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "group form",
           "explanation": "The recording gives 'group form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -3979,47 +4043,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A lecturer explains recent research connected with urban wildlife. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is nesting site, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "nesting site",
           "explanation": "The recording gives 'nesting site' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 105",
           "explanation": "The recording gives 'room 105' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "17 pounds",
           "explanation": "The recording gives '17 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "urban form",
           "explanation": "The recording gives 'urban form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4041,47 +4106,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A caller arranges an appointment concerning repair cafes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is tool station, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the repair form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "tool station",
           "explanation": "The recording gives 'tool station' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 106",
           "explanation": "The recording gives 'room 106' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "18 pounds",
           "explanation": "The recording gives '18 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "repair form",
           "explanation": "The recording gives 'repair form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4103,47 +4169,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A staff member gives students practical information about urban trees and cooling. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is shade map, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the urban form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "shade map",
           "explanation": "The recording gives 'shade map' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 107",
           "explanation": "The recording gives 'room 107' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "19 pounds",
           "explanation": "The recording gives '19 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "urban form",
           "explanation": "The recording gives 'urban form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4165,47 +4232,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A trainer introduces a practical workshop on habit formation. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is tracking chart, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the habit form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "tracking chart",
           "explanation": "The recording gives 'tracking chart' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 108",
           "explanation": "The recording gives 'room 108' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "20 pounds",
           "explanation": "The recording gives '20 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "habit form",
           "explanation": "The recording gives 'habit form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4227,47 +4295,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students review progress on a project about remote work and city centres. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is commuter survey, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the remote form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "commuter survey",
           "explanation": "The recording gives 'commuter survey' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 109",
           "explanation": "The recording gives 'room 109' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "21 pounds",
           "explanation": "The recording gives '21 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "remote form",
           "explanation": "The recording gives 'remote form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4289,47 +4358,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A recorded message gives advice related to ancient trade routes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is ceramic sample, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the ancient form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "ceramic sample",
           "explanation": "The recording gives 'ceramic sample' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 110",
           "explanation": "The recording gives 'room 110' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "22 pounds",
           "explanation": "The recording gives '22 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "ancient form",
           "explanation": "The recording gives 'ancient form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4351,47 +4421,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "An interviewer asks a local organiser about evening classes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is course fee, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the evening form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "course fee",
           "explanation": "The recording gives 'course fee' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 111",
           "explanation": "The recording gives 'room 111' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "23 pounds",
           "explanation": "The recording gives '23 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "evening form",
           "explanation": "The recording gives 'evening form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4413,47 +4484,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A researcher summarises findings about town library changes. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is study zone, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the town form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "study zone",
           "explanation": "The recording gives 'study zone' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 112",
           "explanation": "The recording gives 'room 112' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "24 pounds",
           "explanation": "The recording gives '24 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "town form",
           "explanation": "The recording gives 'town form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4475,47 +4547,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A visitor asks for details about an activity involving financial skills at school. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is budget plan, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the financial form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "budget plan",
           "explanation": "The recording gives 'budget plan' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 113",
           "explanation": "The recording gives 'room 113' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "25 pounds",
           "explanation": "The recording gives '25 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "financial form",
           "explanation": "The recording gives 'financial form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4537,47 +4610,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Residents discuss a proposal about public transport investment. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is route extension, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "route extension",
           "explanation": "The recording gives 'route extension' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 114",
           "explanation": "The recording gives 'room 114' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "26 pounds",
           "explanation": "The recording gives '26 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "public form",
           "explanation": "The recording gives 'public form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4599,47 +4673,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students give feedback on a course connected with home working patterns. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is flexible schedule, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the home form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "flexible schedule",
           "explanation": "The recording gives 'flexible schedule' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 115",
           "explanation": "The recording gives 'room 115' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "27 pounds",
           "explanation": "The recording gives '27 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "home form",
           "explanation": "The recording gives 'home form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4661,47 +4736,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A student calls a local office about flat viewing appointments. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is deposit receipt, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the flat form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "deposit receipt",
           "explanation": "The recording gives 'deposit receipt' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 101",
           "explanation": "The recording gives 'room 101' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "13 pounds",
           "explanation": "The recording gives '13 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "flat form",
           "explanation": "The recording gives 'flat form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4723,47 +4799,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A coordinator explains a weekend activity linked to local fitness centres. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is trial week, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "trial week",
           "explanation": "The recording gives 'trial week' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 102",
           "explanation": "The recording gives 'room 102' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "14 pounds",
           "explanation": "The recording gives '14 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "local form",
           "explanation": "The recording gives 'local form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4785,47 +4862,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A guide introduces a public event about library research workshops. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is citation guide, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the library form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "citation guide",
           "explanation": "The recording gives 'citation guide' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 103",
           "explanation": "The recording gives 'room 103' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "15 pounds",
           "explanation": "The recording gives '15 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "library form",
           "explanation": "The recording gives 'library form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4847,47 +4925,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Two students organise a short presentation on business case study meetings. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is pricing survey, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the business form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "pricing survey",
           "explanation": "The recording gives 'pricing survey' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 104",
           "explanation": "The recording gives 'room 104' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "16 pounds",
           "explanation": "The recording gives '16 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "business form",
           "explanation": "The recording gives 'business form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4909,47 +4988,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A lecturer explains recent research connected with renewable energy projects. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is battery storage, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the renewable form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "battery storage",
           "explanation": "The recording gives 'battery storage' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 105",
           "explanation": "The recording gives 'room 105' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "17 pounds",
           "explanation": "The recording gives '17 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "renewable form",
           "explanation": "The recording gives 'renewable form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -4971,47 +5051,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A caller arranges an appointment concerning vertical farming. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is LED lighting, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the vertical form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "LED lighting",
           "explanation": "The recording gives 'LED lighting' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 106",
           "explanation": "The recording gives 'room 106' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "18 pounds",
           "explanation": "The recording gives '18 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "vertical form",
           "explanation": "The recording gives 'vertical form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5033,47 +5114,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A staff member gives students practical information about noise pollution and learning. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is reading score, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the noise form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "reading score",
           "explanation": "The recording gives 'reading score' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 107",
           "explanation": "The recording gives 'room 107' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "19 pounds",
           "explanation": "The recording gives '19 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "noise form",
           "explanation": "The recording gives 'noise form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5095,47 +5177,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A trainer introduces a practical workshop on nature inspired materials. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is surface coating, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the nature form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "surface coating",
           "explanation": "The recording gives 'surface coating' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 108",
           "explanation": "The recording gives 'room 108' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "20 pounds",
           "explanation": "The recording gives '20 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "nature form",
           "explanation": "The recording gives 'nature form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5157,47 +5240,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students review progress on a project about future public libraries. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is digital access, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the future form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "digital access",
           "explanation": "The recording gives 'digital access' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 109",
           "explanation": "The recording gives 'room 109' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "21 pounds",
           "explanation": "The recording gives '21 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "future form",
           "explanation": "The recording gives 'future form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5219,47 +5303,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A recorded message gives advice related to deep ocean mapping. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is robotic vessel, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the deep form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "robotic vessel",
           "explanation": "The recording gives 'robotic vessel' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 110",
           "explanation": "The recording gives 'room 110' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "22 pounds",
           "explanation": "The recording gives '22 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "deep form",
           "explanation": "The recording gives 'deep form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5281,47 +5366,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "An interviewer asks a local organiser about housing affordability. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is rent cap, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the housing form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "rent cap",
           "explanation": "The recording gives 'rent cap' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 111",
           "explanation": "The recording gives 'room 111' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "23 pounds",
           "explanation": "The recording gives '23 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "housing form",
           "explanation": "The recording gives 'housing form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5343,47 +5429,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A researcher summarises findings about museum access policies. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is free admission, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the museum form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "free admission",
           "explanation": "The recording gives 'free admission' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 112",
           "explanation": "The recording gives 'room 112' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "24 pounds",
           "explanation": "The recording gives '24 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "museum form",
           "explanation": "The recording gives 'museum form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5405,47 +5492,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A visitor asks for details about an activity involving technology and social life. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is screen break, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the technology form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "screen break",
           "explanation": "The recording gives 'screen break' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 113",
           "explanation": "The recording gives 'room 113' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "25 pounds",
           "explanation": "The recording gives '25 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "technology form",
           "explanation": "The recording gives 'technology form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5467,47 +5555,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Residents discuss a proposal about household energy use. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is solar panel, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the household form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "solar panel",
           "explanation": "The recording gives 'solar panel' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 114",
           "explanation": "The recording gives 'room 114' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "26 pounds",
           "explanation": "The recording gives '26 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "household form",
           "explanation": "The recording gives 'household form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5529,47 +5618,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students give feedback on a course connected with public transport workers. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is shift timetable, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "shift timetable",
           "explanation": "The recording gives 'shift timetable' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 115",
           "explanation": "The recording gives 'room 115' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "27 pounds",
           "explanation": "The recording gives '27 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "public form",
           "explanation": "The recording gives 'public form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5591,47 +5681,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A student calls a local office about travel insurance calls. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is policy number, and the meeting time is 10:30 in room 101. The final arrangement is for Tuesday, with a fee of 13 pounds. Before finishing, the speaker reminds listeners to complete the travel form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "policy number",
           "explanation": "The recording gives 'policy number' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 101",
           "explanation": "The recording gives 'room 101' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "13 pounds",
           "explanation": "The recording gives '13 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "travel form",
           "explanation": "The recording gives 'travel form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5653,47 +5744,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A coordinator explains a weekend activity linked to city history walks. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is river bridge, and the meeting time is 11:00 in room 102. The final arrangement is for Wednesday, with a fee of 14 pounds. Before finishing, the speaker reminds listeners to complete the city form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "river bridge",
           "explanation": "The recording gives 'river bridge' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 102",
           "explanation": "The recording gives 'room 102' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "14 pounds",
           "explanation": "The recording gives '14 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "city form",
           "explanation": "The recording gives 'city form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5715,47 +5807,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A guide introduces a public event about student accommodation briefings. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is laundry card, and the meeting time is 9:30 in room 103. The final arrangement is for Thursday, with a fee of 15 pounds. Before finishing, the speaker reminds listeners to complete the student form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "laundry card",
           "explanation": "The recording gives 'laundry card' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 103",
           "explanation": "The recording gives 'room 103' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "15 pounds",
           "explanation": "The recording gives '15 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "student form",
           "explanation": "The recording gives 'student form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5777,47 +5870,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Two students organise a short presentation on research method discussions. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is pilot study, and the meeting time is 10:00 in room 104. The final arrangement is for Friday, with a fee of 16 pounds. Before finishing, the speaker reminds listeners to complete the research form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "pilot study",
           "explanation": "The recording gives 'pilot study' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 104",
           "explanation": "The recording gives 'room 104' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "16 pounds",
           "explanation": "The recording gives '16 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "research form",
           "explanation": "The recording gives 'research form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5839,47 +5933,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A lecturer explains recent research connected with memory and sleep lectures. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is recall test, and the meeting time is 11:30 in room 105. The final arrangement is for Monday, with a fee of 17 pounds. Before finishing, the speaker reminds listeners to complete the memory form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "recall test",
           "explanation": "The recording gives 'recall test' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 105",
           "explanation": "The recording gives 'room 105' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "17 pounds",
           "explanation": "The recording gives '17 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "memory form",
           "explanation": "The recording gives 'memory form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5901,47 +5996,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A caller arranges an appointment concerning ai in medical triage. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is risk score, and the meeting time is 9:00 in room 106. The final arrangement is for Tuesday, with a fee of 18 pounds. Before finishing, the speaker reminds listeners to complete the ai form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "risk score",
           "explanation": "The recording gives 'risk score' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 106",
           "explanation": "The recording gives 'room 106' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "18 pounds",
           "explanation": "The recording gives '18 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "ai form",
           "explanation": "The recording gives 'ai form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -5963,47 +6059,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A staff member gives students practical information about circular fashion. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is textile recycling, and the meeting time is 10:30 in room 107. The final arrangement is for Wednesday, with a fee of 19 pounds. Before finishing, the speaker reminds listeners to complete the circular form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "textile recycling",
           "explanation": "The recording gives 'textile recycling' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 107",
           "explanation": "The recording gives 'room 107' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "19 pounds",
           "explanation": "The recording gives '19 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "circular form",
           "explanation": "The recording gives 'circular form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6025,47 +6122,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests/listening/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A trainer introduces a practical workshop on micro-mobility streets. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is speed limit, and the meeting time is 11:00 in room 108. The final arrangement is for Thursday, with a fee of 20 pounds. Before finishing, the speaker reminds listeners to complete the micro-mobility form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "speed limit",
           "explanation": "The recording gives 'speed limit' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 108",
           "explanation": "The recording gives 'room 108' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "20 pounds",
           "explanation": "The recording gives '20 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "micro-mobility form",
           "explanation": "The recording gives 'micro-mobility form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6087,47 +6185,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students review progress on a project about sleep memory and learning. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is deep sleep, and the meeting time is 9:30 in room 109. The final arrangement is for Friday, with a fee of 21 pounds. Before finishing, the speaker reminds listeners to complete the sleep form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "deep sleep",
           "explanation": "The recording gives 'deep sleep' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 109",
           "explanation": "The recording gives 'room 109' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "21 pounds",
           "explanation": "The recording gives '21 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "sleep form",
           "explanation": "The recording gives 'sleep form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6149,47 +6248,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A recorded message gives advice related to climate data citizen science. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is weather sensor, and the meeting time is 10:00 in room 110. The final arrangement is for Monday, with a fee of 22 pounds. Before finishing, the speaker reminds listeners to complete the climate form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "weather sensor",
           "explanation": "The recording gives 'weather sensor' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:00",
           "explanation": "The recording gives '10:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 110",
           "explanation": "The recording gives 'room 110' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "22 pounds",
           "explanation": "The recording gives '22 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "climate form",
           "explanation": "The recording gives 'climate form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6211,47 +6311,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "An interviewer asks a local organiser about ai in education. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is feedback tool, and the meeting time is 11:30 in room 111. The final arrangement is for Tuesday, with a fee of 23 pounds. Before finishing, the speaker reminds listeners to complete the ai form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "feedback tool",
           "explanation": "The recording gives 'feedback tool' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:30",
           "explanation": "The recording gives '11:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 111",
           "explanation": "The recording gives 'room 111' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Tuesday",
           "explanation": "The recording gives 'Tuesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "23 pounds",
           "explanation": "The recording gives '23 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "ai form",
           "explanation": "The recording gives 'ai form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6273,47 +6374,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 2",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-2"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A researcher summarises findings about local food production. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is greenhouse plot, and the meeting time is 9:00 in room 112. The final arrangement is for Wednesday, with a fee of 24 pounds. Before finishing, the speaker reminds listeners to complete the local form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "greenhouse plot",
           "explanation": "The recording gives 'greenhouse plot' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:00",
           "explanation": "The recording gives '9:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 112",
           "explanation": "The recording gives 'room 112' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Wednesday",
           "explanation": "The recording gives 'Wednesday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "24 pounds",
           "explanation": "The recording gives '24 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "local form",
           "explanation": "The recording gives 'local form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6335,47 +6437,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 3",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-3"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "A visitor asks for details about an activity involving job mobility. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is career portfolio, and the meeting time is 10:30 in room 113. The final arrangement is for Thursday, with a fee of 25 pounds. Before finishing, the speaker reminds listeners to complete the job form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "career portfolio",
           "explanation": "The recording gives 'career portfolio' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "10:30",
           "explanation": "The recording gives '10:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 113",
           "explanation": "The recording gives 'room 113' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Thursday",
           "explanation": "The recording gives 'Thursday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "25 pounds",
           "explanation": "The recording gives '25 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "job form",
           "explanation": "The recording gives 'job form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6397,47 +6500,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 2 Part 4",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening-2/section-4"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Residents discuss a proposal about university redevelopment. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is new laboratory, and the meeting time is 11:00 in room 114. The final arrangement is for Friday, with a fee of 26 pounds. Before finishing, the speaker reminds listeners to complete the university form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "new laboratory",
           "explanation": "The recording gives 'new laboratory' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "11:00",
           "explanation": "The recording gives '11:00' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 114",
           "explanation": "The recording gives 'room 114' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Friday",
           "explanation": "The recording gives 'Friday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "26 pounds",
           "explanation": "The recording gives '26 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "university form",
           "explanation": "The recording gives 'university form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
@@ -6459,47 +6563,48 @@ window.IELTS_DATA = {
         "label": "British Council Listening Test 1 Part 1",
         "url": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening/section-1"
       },
+      "taskInstruction": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
       "audioScript": "Students give feedback on a course connected with public parks and libraries. The speaker first confirms the purpose of the enquiry and corrects one earlier misunderstanding. The main detail is spending review, and the meeting time is 9:30 in room 115. The final arrangement is for Monday, with a fee of 27 pounds. Before finishing, the speaker reminds listeners to complete the public form. Candidates should follow corrections, listen for paraphrase, and check spelling carefully.",
       "questions": [
         {
           "number": 1,
           "type": "form completion",
-          "question": "Complete the note for item 1.",
+          "question": "What is the main topic or service mentioned by the speaker? ______",
           "answer": "spending review",
           "explanation": "The recording gives 'spending review' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 2,
           "type": "short answer",
-          "question": "Complete the note for item 2.",
+          "question": "What time does the meeting or appointment begin? ______",
           "answer": "9:30",
           "explanation": "The recording gives '9:30' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 3,
           "type": "sentence completion",
-          "question": "Complete the note for item 3.",
+          "question": "Which room should the visitor go to? ______",
           "answer": "room 115",
           "explanation": "The recording gives 'room 115' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 4,
           "type": "note completion",
-          "question": "Complete the note for item 4.",
+          "question": "Which day is finally confirmed? ______",
           "answer": "Monday",
           "explanation": "The recording gives 'Monday' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 5,
           "type": "form completion",
-          "question": "Complete the note for item 5.",
+          "question": "How much is the fee? ______",
           "answer": "27 pounds",
           "explanation": "The recording gives '27 pounds' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         },
         {
           "number": 6,
           "type": "short answer",
-          "question": "Complete the note for item 6.",
+          "question": "Which form does the speaker say must be completed? ______",
           "answer": "public form",
           "explanation": "The recording gives 'public form' as the final required detail. A nearby distractor is mentioned first, so the answer comes from the speaker's corrected or confirmed information."
         }
